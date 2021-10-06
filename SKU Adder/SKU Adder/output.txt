@@ -1,0 +1,1177 @@
+Featured Medium Roast - Pike Place® Roast ,000000001&000000002&000000003&000121965
+ Steamed Milk,000000005&000000051&011051927&011051928&011051929&011051930&011051931
+Cold Apple Juice ,000000006&000000066
+ Hot Chocolate,000000007&000128640&000128641&000128642&000128643
+ Milk,000000017&000000018&000121973
+Solo Espresso,000000020
+Doppio Espresso,000000021
+Solo Espresso Macchiato,000000025
+Doppio Espresso Macchiato,000000026
+Solo Espresso Con Panna,000000030
+Doppio Espresso Con Panna,000000031
+ Cappuccino,000000037&000000038&000000039&000121971&011004407&011004408&011004409&011016386&011022286&011022287&011022288&011022289&011046075&011046076
+ Caffè Latte,000000040&000000041&000000042&000121966
+Custom Iced Tea Refill ,000000043&011002162&011002163&011002164
+ Caffè Mocha,000000045&000000046&000000047&000121967
+Regular Milk,000000052
+Add Espresso Shot,000000055
+Add Custom Syrup,000000057
+ Apple Juice,000000067&000000068&000144651
+Hot Coffee Refill ,000000076&000121617&000121618&000139877
+ Caffè Misto,000000090&000000091&000000092&000121968
+ Caffè Americano,000000093&000000094&000000095&000121969
+Add Cup of Ice,000000992
+ Iced Coffee,000106509&000106510&000144646&011006148
+Large Format Custom Brewed Coffee 1 gallon,000107488
+Large Format Custom Brewed Coffee 2.5 gallons,000107489
+Large Format Custom Brewed Coffee 5 gallons,000107504
+ Eggnog Latte,000108516&000108517&000108518&000128648
+Decaf,000109836
+1/2 Decaf,000109837
+Add Ristretto,000109839
+Add Nonfat Milk,000109840
+Add 2% Milk,000109841
+Breve (Half & Half),000109842
+For Here Cup,000109844
+Ask Me,000109845
+Double Cup,000109883
+Warm,000109888
+Extra Hot,000109889
+Regular Steamed,000109890
+Regular Whipped Cream,000109891
+Light Whipped Cream,000109892
+No Whipped Cream,000109893
+Sugar,000109894
+Saccharin (pink),000109895
+Equal® (blue),000109896
+Regular Ice,000109897
+Light Ice,000109898
+No Ice,000109899
+Foam,000109900
+Light Foam,000109901
+No Foam,000109902
+Wet,000109903
+Dry,000109904
+Light Vanilla Syrup,000109906
+Light Hazelnut Syrup,000109910
+Light Mocha Sauce,000109912
+Extra Vanilla Syrup,000109913
+Extra Hazelnut Syrup,000109915
+Extra Mocha Sauce,000109916
+Add Vanilla Syrup,000109917
+Add Hazelnut Syrup,000109918
+Add Mocha Sauce,000109920
+Cup Of Water ,000110014&000546466&000546467&011015038&011045628
+Sugar in the Raw®,000110016
+Add Espresso (Fine),000110018
+Add Cone Filter (Semi-Fine),000110019
+Add Turkish Grind (Extra Fine),000110021
+Add Flat Bottom (Drip),000110024
+Add French Press (Coarse),000110025
+1/3 Decaf,000110026
+2/3 Decaf,000110027
+Add Whole Milk,000110086
+Extra Whipped Cream,000110089
+Extra Foam,000110090
+Room,000110237
+No Room,000110240
+Extra Room,000110241
+Add  Cup,000110243&000110244
+ Cup,000110245&000147013
+Extra Ice,000110246
+ Iced Caffè Americano,000110563&000110564&000144650
+ Iced Caffè Mocha,000110566&000110567&000144649
+ Iced Caffè Latte,000110569&000110570&000144648
+1% Milk,000110612
+French Press Brewed Custom Coffee 8 Cup,000111774
+French Press Brewed Custom Coffee 12 Cup,000111775
+Creamer (Half & Half),000111806
+Regular Cinnamon Powder,000112073
+Vanilla Powder,000112074
+Chocolate Powder,000112075
+Nutmeg Powder,000112076
+Add Soymilk,000113135
+Add Irish Cream Syrup,000114098&000189640&011115112
+ Steamed Apple Juice,000115157&000115158&000115159&000122295&000485074
+Add Honey,000115320
+Triple Espresso,000121982
+Quad Espresso,000121983
+Triple Espresso Macchiato,000121984
+Quad Espresso Macchiato,000121985
+Triple Espresso Con Panna,000121986
+Quad Espresso Con Panna,000121987
+Add Caramel Sauce,000126195
+ Caramel Macchiato,000126196&000126197&000126198&000126199
+Chai Tea Latte ,000135607&000135608&000135609&000135610
+Iced Tazo® Classic Chai Tea Latte ,000135612&000135613&000144647
+Add Sugar Free Vanilla Syrup,000135800
+ Featured Dark Roast,000138663&000138664&000138665&000138666
+Add Tea Bag,000142689
+ Decaf Pike Place® Roast,000143104&000143105&000143106&000143107
+Light Sugar Free Vanilla Syrup,000145690
+Extra Sugar Free Vanilla Syrup,000145692
+Coffee Traveler - Custom Brewed Coffee,000148081
+ White Chocolate Mocha,000148688&000148689&000148690&000148691
+ Iced White Chocolate Mocha,000153120&000153121&000153122
+Add Caramel Syrup,000154162
+ White Hot Chocolate,000155307&000155308&000155309&000155310&000155311
+ Iced Caramel Macchiato,000155347&000155364
+Iced Caramel Macchiato ,000155349&011009705
+ Caramel Apple Spice,000155357&000155358&000155359&000155360&000155434
+Light Caramel Syrup,000159775
+Extra Caramel Syrup,000159778
+Add Frappuccino® Chips,000160150
+ Gingerbread Latte,000163027&000163028&000163029&000163030
+Add Gingerbread Syrup,000165863
+Light Gingerbread Syrup Modifier,000165864
+Extra Gingerbread Syrup Modifier,000165865
+ Iced Eggnog Latte,000176828&000181428&000181429
+ Iced Gingerbread Latte,000176830&000181430&000181431
+ Mocha Coconut Frappuccino® Blended Coffee,000177531&000177532
+Add Classic Syrup,000177838
+Add Heavy Lemonade,000177846
+No Water,000178658
+Water,000178667
+Extra Water,000178668
+Light Water,000178669
+ Vanilla Crème,000179555&000179556&000179557&000179558&000485072
+ Peppermint Mocha,000179559&000179560&000179561&000179562&000357118&011046730&011046731&011046732&011046733
+ Iced Peppermint Mocha,000179563&000181433&000181435
+Peppermint Hot Chocolate ,000179565&000179566&000179567&000179568&000179569
+Light Caramel Sauce,000179952
+Extra Caramel Sauce,000179953
+Add Chai,000179992
+Light Chai,000179993
+Extra Chai,000179994
+Flavored Crème ,000180357&000180358&000180359&000180360&000485073
+Substitute Caramel Syrup,000180594
+Substitute Hazelnut Syrup,000180596
+Sub Irish Cream Syrup,000180597&011115113
+Substitute Sugar Free Vanilla Syrup,000180601
+No Classic Syrup,000180950
+Add Peppermint Syrup,000181585
+Light Peppermint Syrup,000181586
+Extra Peppermint Syrup,000181587
+Add Toffee Nut Syrup,000181589
+Light Toffee Nut Syrup,000181590
+Extra Toffee Nut Syrup,000181591
+Substitute Gingerbread Syrup,000181592
+Substitute Peppermint Syrup,000181593
+Substitute Toffee Nut Syrup,000181594
+Add Vanilla Bean Powder,000182363
+Light Creamer (Half & Half),000182529
+Extra Creamer (Half & Half),000182530
+Extra Classic Syrup,000182878
+Value Custom Temp,000183172
+Light Room,000183455
+ Pumpkin Spice Latte,000183885&000183886&000183887&000183888&011026666&011026672&011026673&011026674&011045163&011098639&011098640&011098641&011098642
+ Iced Pumpkin Spice Latte,000183889&000183890&000183891&011026679&011026680&011026681&011045164
+ Pumpkin Spice Crème,000183892&000183893&000183894&000183895&000551427
+Add Pumpkin Sauce,000183904
+Light Classic Syrup,000184295
+Substitute Classic Syrup,000184296
+Substitute Mocha Sauce,000184297
+ Cinnamon Dolce Latte,000184540&000184541&000184542&000184543
+ Iced Cinnamon Dolce Latte,000184544&000184545&000184546
+ Cinnamon Dolce Crème,000184549&000184550&000184551
+Add Cinnamon Dolce Syrup,000184556
+Add Splenda®,000186842
+Heavy Cream,000187368
+Substitute Vanilla Syrup,000187669
+Substitute Pumpkin Sauce,000189197&011052599
+Extra Pumpkin Sauce,000189198
+Light Pumpkin Sauce,000189199
+Extra Irish Cream Syrup Modifier,000189641&011115115
+Light Irish Cream Syrup Modifier,000189642&011115114
+Add White Chocolate Mocha Sauce,000189840
+Light White Chocolate Mocha Sauce,000189842
+Extra White Chocolate Mocha Sauce,000189843
+Add Matcha Green Tea Powder,000191339&011089954
+Matcha Tea Latte ,000195169&000195170&000195172&000195174
+Iced Matcha Tea Latte ,000195171&000195173&000195175
+Light Cinnamon Dolce Syrup,000197829
+Extra Cinnamon Dolce Syrup,000197830
+No Cinnamon Dolce Syrup,000197831
+Substitute Cinnamon Dolce Syrup,000197832
+Warmed,000204198
+Regular Coconut Flakes,000249189
+Custom Shaken Iced Tea ,000277659&000277660&000277661&011010097
+Iced Tea Lemonade ,000277662&000277663&000277664&011010098
+Add Raspberry Syrup,000277675
+Add Sugar Free Cinnamon Dolce Syrup,000375416
+Light Sugar Free Cinnamon Dolce Syrup,000375417
+Extra Sugar Free Cinnamon Dolce Syrup,000375420
+Add Thai Syrup,000375446
+100% Kona Brewed Coffee ,000375450
+Eggnog,000388736
+Substitute Sugar Free Cinnamon Dolce Syrup,000401486
+Add Sugar Free Caramel Syrup,000438552
+Light Raspberry Syrup,000446021
+Extra Raspberry Syrup,000446022
+Substitute Raspberry Syrup,000446023
+Substitute Chai,000446052
+Substitute Caramel Sauce,000446053
+Sub Matcha Powder,000446055
+Substitute White Chocolate Mocha Sauce,000446057
+Thai Syrup extra,000446060
+ Gingerbread Crème,000492588&000492589&000492590&000492591&000546507
+ Eggnog Crème,000492592&000492593&000492594&000492595&000546508
+Light Vanilla Powder,000523881
+Extra Vanilla Powder,000523882
+Light Cinnamon Powder,000523883
+Extra Cinnamon Powder,000523884
+Light Nutmeg Powder,000523885
+Extra Nutmeg Powder,000523886
+No Vanilla Syrup,000523887
+No Sugar Free Vanilla Syrup,000523888
+No Hazelnut Syrup,000523889
+No Caramel Syrup,000523893&011099270
+No Peppermint Syrup,000523902
+No Irish Cream Syrup Modifier,000523903&011115111
+Extra Caramel Drizzle,000523905&011001830
+Extra Wet,000546389
+Light Wet Foam,000546390
+No Caramel Drizzle,000546393&011001836
+ Peppermint White Chocolate Mocha,000546436&000546437&000546439&000546441
+ Iced Peppermint White Chocolate Mocha,000546438&000546440&000546442
+ Peppermint White Hot Chocolate,000546443&000546444&000546445&000546446&000546447
+Light Caramel Drizzle,000546499&011001829
+No Chocolate Powder,000551443
+No Nutmeg Powder,000551444
+No Vanilla Powder,000551445
+No Cinnamon Powder,000551446
+ Skinny Cinnamon Dolce Latte,001076500&001076501&001076503&001076505
+ Iced Skinny Cinnamon Dolce Latte,001076502&001076504&001076506
+Add Protein & Fiber Powder,001084740
+Add Banana,001084741&011101071
+Regular Lactose-Free Beverage,001111164
+Skinny Caffè Latte ,001111168&001111169&001111171&001111173
+Iced Skinny Caffè Latte ,001111170&001111172&001111174
+ Starbucks Doubleshot® on Ice Beverage,001117373&001117374&001117375
+ Iced Cappuccino,001185243&001185244&001185245
+Add Frappuccino® Roast,001190214&011007228
+Iced Coffee Refill ,001206668&001206669&001206670&011002167
+Chocolate Curls Topping,001233198
+Caramel Drizzle,011001828
+Mocha Drizzle,011001832
+Extra Mocha Drizzle,011001834
+Light Mocha Drizzle,011001835
+No Mocha Drizzle,011001837
+Whole Milk Creamer,011002139
+Extra Whole Milk Creamer,011002140
+Light Whole Milk Creamer,011002141
+Nonfat Milk Creamer,011002142
+Extra Nonfat Milk Creamer,011002144
+Light Nonfat Milk Creamer,011002145
+Splash of 2% Milk,011002146
+Extra 2% Milk Creamer,011002147
+Light 2% Milk Creamer,011002148
+1% Milk Creamer,011002149
+Extra 1% Milk Creamer,011002150
+Light 1% Milk Creamer,011002151
+Splash of Soymilk,011002152
+Extra Splash of Soymilk,011002153
+Light Splash of Soymilk,011002154
+Heavy Cream Creamer,011002158
+Extra Heavy Cream Creamer,011002159
+Light Heavy Cream Creamer,011002160
+ Iced Coffee with Milk,011002197&011002199&011002200&011006149
+ Caffè Vanilla Frappuccino® Blended Coffee,011002645&011002647&011002654
+ Caramel Frappuccino® Blended Coffee,011002655&011002656&011002657
+ Coffee Frappuccino® Blended Coffee,011002659&011002660&011002661
+ Espresso Frappuccino® Blended Coffee,011002662&011002663&011002664
+ Java Chip Frappuccino® Blended Coffee,011002665&011002666&011002667
+ Mocha Frappuccino® Blended Coffee,011002668&011002669&011002670
+ White Chocolate Mocha Frappuccino® Blended Coffee,011002671&011002672&011002673
+ Chai Crème Frappuccino® Blended Crème,011002674&011002675&011002676
+ Double Chocolaty Chip Crème Frappuccino® Blended Crème,011002677&011002678&011002679
+Matcha Crème Frappuccino® Blended Beverage ,011002680&011002681&011002682&011090004&011090013&011090017
+ Flavored Crème Frappuccino® Blended Crème,011002686&011002687&011002688
+ Vanilla Bean Crème Frappuccino® Blended Crème,011002689&011002690&011002691
+ White Chocolate Crème Frappuccino® Blended Crème,011002692&011002693&011002694
+Affogato-Style Shots 2 add,011003434
+ Blended Strawberry Lemonade,011004025&011004026&011004027
+ Pumpkin Spice Frappuccino® Blended Beverage,011005210&011005211&011005212
+ Caramel Brulée Latte,011005278&011005279&011005280&011005281
+ Iced Caramel Brulée Latte,011005282&011005284&011005285
+Add Caramel Brulée Sauce,011005293
+No Caramel Brulée Sauce Modifier,011005294
+Substitute Caramel Brulée Sauce,011005295
+Extra Caramel Brulée Sauce Modifier,011005296
+Light Caramel Brulée Sauce Modifier,011005297
+Caramel Brulée Topping,011005298
+No Caramel Brulée Topping,011005299&011035159
+Sub Caramel Brulée Topping,011005300&011070821
+Extra Caramel Brulée Topping,011005301&011070823
+Light Caramel Brulée Topping,011005302&011070824
+Doppio Iced Espresso Macchiato,011005324
+Triple Iced Espresso Macchiato,011005325
+Quad Iced Espresso Macchiato,011005326
+Doppio Iced Espresso,011005330
+Triple Iced Espresso,011005331
+Quad Iced Espresso,011005332
+Caramel Brulée Frappuccino® Blended Beverage ,011005499&011005500&011005501
+Peppermint Mocha Frappuccino® Blended Beverage ,011005502&011005503&011005504
+Eggnog Frappuccino® Blended Beverage ,011005505&011005506&011005507
+ Caramel Brulée Crème,011005690&011005691&011005692&011005693&011005694
+Solo Iced Espresso,011005727
+Doppio Iced Espresso Con Panna,011005729
+Triple Iced Espresso Con Panna,011005730
+Quad Iced Espresso Con Panna,011005731
+Solo Iced Espresso Macchiato,011005732
+ Sumatra Clover®,011006026&011006027&011006029&011006295
+ Iced Sumatra Clover®,011006028&011006030&011006031
+ Decaf Sumatra Clover®,011006032&011006033&011006035&011006296
+ Iced Decaf Sumatra Clover®,011006034&011006036&011006037
+ Peppermint White Chocolate Mocha Light Frappuccino® Blended Beverage,011006968&011006969&011006970
+Clover® Starbucks Reserve® Jamaica Blue Mountain® ,011007084&011007085&011007087&011007089
+Iced Clover® Starbucks Reserve® Jamaica Blue Mountain® ,011007086&011007088
+Iced Jamaica Blue Mountain® Clover® Starbucks Reserve® ,011007090
+Custom Tea Latte ,011007553&011007554&011007555&011007556
+ Decaf Iced Coffee,011008163&011008164&011008165&011008277
+ Decaf Iced Coffee with Milk,011008168&011008171&011008172&011008278
+ Very Berry Hibiscus Starbucks Refreshers™ Beverage,011008581&011008582&011008583&011015676
+ Salted Caramel Mocha,011009207&011009208&011009209&011009210
+ Salted Caramel Mocha Crème Frappuccino®,011009211&011009212&011009213
+ Salted Caramel Hot Chocolate,011009247&011009249&011009251&011009252
+ Pumpkin Spice Frappuccino® Blended Crème,011009886&011009887&011009888
+Salted Caramel Hot Chocolate ,011009978
+ Iced Salted Caramel Mocha,011010002&011010003&011010005
+Signature Espresso  add,011010168
+Add Sugar Free Mocha Sauce,011010977
+Peppermint White Chocolate Mocha Frappuccino® Blended Beverage ,011010991&011010995&011010999
+ Iced Skinny Mocha,011011222
+ Skinny Caramel Macchiato,011011575&011011576&011011578&011011580
+ Iced Skinny Caramel Macchiato,011011581&011011582&011011583
+Tea Refill ,011012082&011012083&011012084&011012085
+Extra Coconut Flakes,011015279
+ Salted Caramel Mocha Frappuccino® Blended Beverage,011015666&011015669&011015675
+Add Blackberries,011015701
+Extra Blackberries,011015702
+Light Blackberries,011015703
+Substitute Blackberries,011015704
+No Blackberries,011015706
+Add Lime Slices,011015707
+ Caffé Verona® Clover®,011015943&011015944&011015945&011015949
+ Komodo Dragon Clover®,011015950&011015951&011015952&011015953
+ Organic Yukon Blend® Clover®,011015955&011015956&011015957
+ Kenya Clover®,011015960&011015961
+ Guatemala Antigua Clover®,011015964&011015965&011015967
+ Pike Place® Roast Clover®,011015969&011015971&011015973&011015975
+ Gold Coast Clover®,011015981&011015982&011015983&011015984
+ Espresso Roast Clover®,011015985&011015986&011015987&011015988
+ Italian Roast Clover®,011015989&011015990&011015991&011015992
+ Decaf Espresso Roast Clover®,011016000&011016001&011016002&011016003
+ Iced Caffé Verona® Clover®,011016044&011016045&011016046
+ Iced Komodo Dragon Clover®,011016048&011016049
+ Iced Organic Yukon Blend® Clover®,011016050
+ Iced Guatemala Antigua Clover®,011016056&011016057&011016058
+ Iced Pike Place® Roast Clover®,011016059&011016060&011016061
+ Iced Gold Coast Clover®,011016066&011016067
+ Iced Espresso Roast Clover®,011016068&011016069&011016070
+ Iced Italian Roast Clover®,011016071&011016072&011016073
+ Iced Decaf Espresso Roast Clover®,011016082&011016083&011016084
+Salt Sprinkles Topping,011017325
+Extra Salt Topping,011017326
+No Salt Topping,011017327
+ Lemonade,011017739&011017742&011017743&011017745&011019598
+ Gingerbread Frappuccino® Blended Beverage,011018229&011018230&011018231
+ Starbucks Reserve® Hawaii Ka'u,011018328&011018329&011018330&011018331&011028154
+Iced Clover® Starbucks Reserve® Hawaii Ka'U ,011018332&011018333&011018334
+ Blonde Roast,011019773&011019774&011019775&011019776
+ Veranda Blend® Clover®,011020010&011020011&011020013&011020015
+ Iced Veranda Blend® Clover®,011020012&011020014&011020016
+ Mocha Cookie Crumble Frappuccino® blended beverage,011020122&011020123&011020124
+ Chocolate Cookie Crumble Crème Frappuccino® Blended Crème Testing in Prod Content V2,011020130&011020132&011020133
+Clover® Starbucks Reserve®100% Kona ,011020720
+Regular Cookie Crumble Topping,011021426
+Extra Cookie Crumble Topping,011021427
+Light Cookie Crumble Topping,011021428
+No Cookie Crumble Topping,011021429
+Substitute Cookie Crumble Topping,011021430
+ Decaf Pike Place® Roast Clover®,011022811&011022812&011022819&011022828
+ Iced Decaf Pike Place® Roast Clover®,011022818&011022823&011022830
+Pumpkin Spice Topping,011026033
+Extra Pumpkin Spice Topping,011026034
+Sub Pumpkin Spice Topping,011026036
+No Pumpkin Spice Topping,011026041
+Cinnamon Dolce Sprinkles,011026043
+Extra Cinnamon Dolce Sprinkles,011026044
+Sub Cinnamon Dolce Topping,011026045
+No Cinnamon Dolce Sprinkles,011026046
+Light Pumpkin Spice Topping,011026058
+Light Cinnamon Dolce Sprinkles,011026059
+Clover® Starbucks Reserve® Microblend No. 11 ,011026415&011026417
+Vanilla Spice Topping,011027700
+No Vanilla Spice Topping,011027703
+ Caramel Ribbon Crunch Frappuccino® Blended Coffee,011029017&011029018&011029019
+ Caramel Ribbon Crunch Crème Frappuccino® Blended Crème,011029023&011029024&011029025
+Sub Caramel Drizzle,011030587
+Sparkling,011030956
+Sparkling Water ,011031040&011031041&011031042&011031079
+ Chestnut Praline Latte,011032992&011032996&011033006&011033007&011057122&011057123&011057124&011057125
+ Iced Chestnut Praline Latte,011033008&011033009&011033010&011057126&011057127&011057128
+ Chestnut Praline Frappuccino® Blended Beverage,011033011&011033012&011033013
+Add Chestnut Praline Syrup,011033014
+Extra Chestnut Praline Syrup Modifier,011033015
+Light Chestnut Praline Syrup Modifier,011033016
+No Chestnut Praline Syrup Modifier,011033018
+Substitute Chestnut Praline Syrup,011033019
+Chestnut Praline Topping,011033023
+Extra Chestnut Praline Topping,011033024
+Light Chestnut Praline Topping,011033025
+No Chestnut Praline Topping,011033026
+Sub Chestnut Praline Topping,011033027
+ Teavana® Earl Grey Brewed Tea,011033040&011033049&011033050&011033051
+ Royal English Breakfast Tea Latte,011033052&011033053&011033054&011033055
+ Teavana® London Fog Tea Latte,011033056&011033065&011033066&011033067
+ Iced Teavana® London Fog Tea Latte,011033068&011033069&011033070
+ Iced Teavana® Royal English Breakfast Tea Latte,011033071&011033072&011033074
+ Royal English Breakfast Tea,011033075&011033076&011033077&011033078
+Emperor's Clouds & Mist® Green Tea ,011033079&011033156&011033157&011033159
+ Peach Tranquility® Herbal Tea,011033160&011033161&011033163&011033164
+ Mint Majesty™ Herbal Tea,011033175&011033177&011033178&011033180
+Pour Over Pike Place® Special Reserve ,011033719&011033721
+Pour Over Brewed Custom Reserve Coffee ,011033725&011033726&011033728&011033730
+ Teavana® Shaken Iced Black Tea,011035108&011035110&011035112&011035115&011126326&011126327&011126328&011126329
+ Teavana® Shaken Iced Green Tea,011035160&011035161&011035163&011035164&011126807&011126808&011126809&011126810
+ Teavana® Shaken Iced Passion Tango™ Tea,011035166&011035167&011035168&011035169&011126354&011126355&011126356&011126357
+ Teavana® Shaken Iced Black Tea Lemonade,011035171&011035175&011035180&011035182&011126330&011126331&011126332&011126333
+ Teavana® Shaken Iced Green Tea Lemonade,011035184&011035185&011035187&011035189&011126811&011126812&011126813&011126814
+ Teavana® Shaken Iced Passion Tango™ Tea Lemonade,011035190&011035191&011035192&011035193&011126359&011126360&011126361&011126362
+Chocolate Chai,011036946
+Mini Caramel Frappuccino® Blended Coffee,011040648
+Mini Mocha Frappuccino® Blended Coffee,011040652
+Mini Java Chip Frappuccino® Blended Coffee,011040655
+No Coconut Flakes,011041060
+Add Coconut Milk,011042135
+Sub Coconut Milk Creamer,011042136
+Light Splash of Coconutmilk,011042137
+Extra Splash of Coconutmilk,011042138
+No Splash of Coconutmilk,011042139
+Splash of Coconutmilk,011043291
+Iced Clover® Pike Place® Special Reserve ,011043487&011043489&011043492
+Clover® Pike Place® Special Reserve ,011043488&011043490&011043493
+Starbucks® Cold Brew ,011044801&011044802&011044803&011044804
+Coffee Traveler,011045091
+Pour Over Pike Place® Roast ,011045110&011045111&011045112&011045113
+Decaf Pour Over Pike Place® Roast ,011045114&011045115&011045116&011045117
+Pour Over Blonde Roast ,011045118&011045119&011045120&011045121
+Pour Over Dark Roast ,011045123&011045124&011045125&011045126
+Coffee Traveler - Dark Roast,011045140
+Coffee Traveler - Decaf Pike Place® Roast,011045141
+Coffee Traveler - Pike Place® Roast,011045142
+No Very Berry Hibiscus,011045270
+Light Very Berry Hibiscus,011045271
+Extra Very Berry Hibiscus,011045272
+Sub Very Berry Hibiscus,011045273
+Regular Very Berry Hibiscus,011045274
+Extra Splash of Green Tea,011045285
+Sub Green Tea Base,011045286
+Regular Splash of Green Tea,011045287
+No Splash of Green Tea,011045288
+Light Splash of Green Tea,011045289
+Light Splash of Black Tea,011045290
+Extra Splash of Black Tea,011045291
+Sub Black Tea Base,011045292
+Regular Splash of Black Tea,011045293
+No Splash of Black Tea,011045294
+Extra Splash of Passion Tango Tea,011045295
+Sub Passion Tango Tea,011045296
+Regular Splash of Passion Tango Tea,011045297
+No Splash of Passion Tango Tea,011045298
+Light Splash of Passion Tango Tea,011045299
+Mini Coffee Frappuccino® Blended Coffee,011046107
+ Iced Thirty Cents,011046233
+ Flat White,011047168&011047169&011047170&011047171
+ Iced Flat White,011047176&011047178&011047179
+Chestnut Praline Crème Frappuccino® Blended Beverage ,011047445&011047446&011047447
+Cold Brew Refill ,011048321&011048322&011048625&011048626
+ Clover® Brewed Coffee,011048495&011048497&011048498&011048501
+Iced Clover® Brewed Custom Reserve Coffee ,011048496&011048499&011048500
+Starbucks® Cold Brew Coffee with Milk ,011048886&011048887&011048889&011048892
+Add Starbucks Reserve® Espresso Shot,011049854
+ S'mores Frappuccino® Blended Coffee,011050310&011050311&011050312
+ S'mores Frappuccino® Blended Crème,011050314&011050315&011050316
+ Starbucks Reserve® Cold Brew,011050548&011050549&011050550
+ Lemon Bar Crème Frappuccino® Blended Crème,011050784
+Add Milk Chocolate Sauce,011050975
+Substitute Milk Chocolate Sauce,011050979
+Extra Milk Chocolate Sauce,011050981
+Light Milk Chocolate Sauce,011050983
+No Milk Chocolate Sauce,011050985
+Marshmallow Syrup,011050987
+Regular Marshmallow Whipped Cream,011050990
+Light Marshmallow Whip Cream,011050994
+Extra Marshmallow Whipped Cream,011050995
+Sub Marshmallow Whipped Cream,011050996
+No Marshmallow Whip Cream,011050997
+Light Graham Cracker Topping,011051002
+Graham Cracker Topping,011051003
+Extra Graham Cracker Topping,011051004
+Sub Graham Cracker Topping,011051005
+No Graham Cracker Topping,011051006
+Mini White Chocolate Mocha Light Frappuccino® Blended Coffee,011051468
+ Strawberry Acai Starbucks Refreshers™ Beverage,011051826&011051827&011051828&011051829
+Add Blonde Espresso Shot,011051986
+Sub Blonde Espresso Shot,011051994
+Clover® Seasonal Core ,011052012&011052013&011052014&011052017
+Iced Clover® Seasonal Core ,011052015&011052016&011052018
+No Toffee Nut Syrup,011052309
+No Raspberry Syrup,011052312
+No Sugar Free Cinnamon Dolce Syrup,011052315
+No Mocha Sauce,011052321
+No White Chocolate Mocha Sauce,011052322
+No Caramel Sauce,011052323
+No Gingerbread Syrup Modifier,011052324
+No Pumpkin Sauce,011052325
+No Frappuccino® Chips,011052327
+No Vanilla Bean Powder,011052328
+Vanilla Bean Powder extra,011052393
+Vanilla Bean Powder light,011052394
+Vanilla Bean Powder sub,011052395
+Sub Cinnamon Powder,011052402
+Sub Nutmeg Powder,011052403
+Extra Chocolate Powder,011052404
+Light Chocolate Powder,011052405
+Sub Chocolate Powder,011052406
+Mini Espresso Frappuccino® Blended Coffee,011052447
+Sub Vanilla Powder,011052594
+Light Salt Topping,011052600
+Sub Salt Sprinkles Topping,011052601
+Frappuccino® Chips extra,011052606
+Frappuccino® Chips light,011052607
+Mocha Drizzle sub,011052610
+Extra Dry,011052611
+Light Dry Foam,011052612
+Add Strawberries,011052978
+Light Strawberries,011052980
+Extra Strawberries,011052981
+Substitute Strawberries,011052982
+Regular Strawberry Acai Starbucks Refreshers®,011053255
+Sub Strawberry Acai Starbucks Refreshers®,011053257
+Extra Strawberry Acai Starbucks Refreshers®,011053291
+Light Strawberry Acai Starbucks Refreshers®,011053293
+ Starbucks Reserve® Nitro Cold Brew,011053969&011067311&011067312
+No Strawberries,011054841
+Starbucks Reserve® Christmas 2020 Clover® ,011055288&011055289&011055292&011055294&011069449
+Iced Starbucks Reserve® Christmas 2020 Clover® ,011055290&011055291
+ Starbucks Reserve® Iced Latte,011056418&011056419&011056421
+ Starbucks Reserve® Latte,011056420&011056422&011056424&011056425
+ Smoked Butterscotch Latte,011056802
+ Smoked Butterscotch Frappuccino® Blended Beverage,011056851&011056852&011056853
+ Smoked Butterscotch Frappuccino® Blended Crème,011056857&011056858
+Add Smoked Butterscotch Sauce,011057192
+Regular Smokey Butterscotch Sugar Topping,011057224
+Extra Smokey Butterscotch Sugar Topping,011057226
+Sub Chocolate Curls Topping,011058997
+Extra Chocolate Curls Topping,011058998
+Light Chocolate Curls Topping,011058999
+No Chocolate Curls Topping,011059002
+Iced Matcha Green Tea ,011059034
+ Teavana® Shaken Iced White Tea Lemonade,011059878&011059879&011059880&011059881
+ Teavana® Shaken Iced White Tea,011059882&011059883&011059886&011059888
+Clover® Starbucks Reserve® Rwanda Abakundakawa ,011060209&011060210&011060213&011060215
+ Iced Starbucks Reserve® Rwanda Abakundakawa,011060211&011060214
+Iced Clover® Starbucks Reserve® Rwanda Abakundakawa ,011060212
+ Iced Rwanda Hingakawa Clover®,011063994&011063995&011064001
+ Rwanda Hingakawa Clover®,011063998&011063999&011064002&011064003
+Nitro Cold Brew  ,011064074&011064075
+ Vanilla Sweet Cream Cold Brew,011064127&011064128&011064129&011064457
+No Strawberry Acai Starbucks Refreshers®,011064241
+No Splash of Sweet Cream,011064452
+Splash of Sweet Cream,011064453
+Sub Sweet Cream Milk,011064454
+Light Splash of Sweet Cream,011064455
+Extra Splash of Sweet Cream,011064456
+Add Affagato,011064538
+Strawberry Purée,011064550&011091056
+Regular Lemonade,011067204
+No Lemonade,011067205
+Extra Lemonade,011067206
+Light Lemonade,011067207
+Sub Lemonade,011067208
+ Starbucks Reserve® Dark Chocolate Mocha,011067438&011067439&011067443
+ Starbucks Reserve® Iced Dark Chocolate Mocha,011067440&011067441&011067444
+ Ethiopia Yirgacheffe Chelelektu Clover®,011067591&011067593&011067594&011067598
+ Iced Ethiopia Yirgacheffe Chelelektu Clover®,011067597&011067601&011067603
+Extra Reserve Mocha Powder,011067693
+Light Reserve Mocha Powder,011067694
+Regular Reserve Mocha Powder,011067700
+No Almond Milk Creamer,011068712
+Add Almond Milk,011068713
+Splash of Almondmilk,011068714
+Light Splash of Almondmilk,011068715
+Extra Splash of Almondmilk,011068717
+Iced Pour Over Starbucks Reserve® Nicaragua Maracaturra ,011068801
+Apple Juice,011069521
+No Apple Juice,011069522
+Sub Apple Juice,011069523
+Extra Apple Juice,011069524
+Light Apple Juice,011069525
+ Comfort Wellness Brewed Tea,011069895&011069896&011069897&011069898
+ Rev Up Wellness Brewed Tea,011069899&011069900&011069901&011069902
+ Defense Wellness Brewed Tea,011069903&011069904&011069905&011069906
+ Gingerbread Crème Frappuccino® Blended Crème,011071251&011071252&011071253
+Peppermint Mocha Crème Frappuccino® Blended Beverage ,011071506&011071507&011071508
+Caramel Brulée Crème Frappuccino® Blended Beverage ,011071510&011071511&011071512
+Eggnog Crème Frappuccino® Blended Beverage ,011071514&011072764&011072765
+Add Cane Sugar,011072081
+Substitute Liquid Cane Sugar,011072082
+No Liquid Cane Sugar,011072083
+Light Liquid Cane Sugar,011072084
+Extra Liquid Cane Sugar,011072085
+No Cascara Topping,011072695
+Regular Cascara Topping,011072697
+Light Cascara Topping,011072702
+Extra Cascara Topping,011072704
+Add Reserve Vanilla Ice Cream,011072804
+ Jade Citrus Mint™ Brewed Tea,011073276&011073277&011073278&011073279
+ Starbucks® Blonde Vanilla Latte,011073447&011073449&011073450&011073451
+ Iced Starbucks® Blonde Vanilla Latte,011073452&011073453&011073454
+ Starbucks® Blonde Caffè Latte,011073545&011073546&011073547&011073549
+ Iced Starbucks® Blonde Caffè Latte,011073550&011073551&011073552
+Blonde Hazelnut Latte ,011073877&011073878&011073879&011073880
+Iced Blonde Hazelnut Latte ,011074065&011074067&011074068
+Add Decaf Starbucks Reserve® Costa Rica Hacienda Alsalcia Espresso Shot,011074145
+Nitro Flat White ,011074900
+Vanilla Ice Cream add,011074913
+Add Simple Syrup,011075178
+Extra Simple Syrup,011075179
+Light Simple Syrup,011075180
+No Simple Syrup,011075181
+Sub Simple Syrup,011075182
+Chemex Starbucks Reserve® Peru Chontalí 24 ounces,011075669
+Chemex Starbucks Reserve® Vietnam Da Lat 24 ounces,011076588
+Siphon Starbucks Reserve® Vietnam Da Lat ,011076589
+Add Starbucks Reserve® Vietnam Da Lat Espresso Shot,011076869
+ Clover® Starbucks Reserve® Vietnam Da Lat,011076953&011076954&011076955&011076956
+ Iced Clover® Starbucks Reserve® Vietnam Da Lat,011076957&011076958&011076963
+Pour Over Starbucks Reserve® Vietnam Da Lat ,011076964&011076965&011076966&011076967
+Iced Pour Over Starbucks Reserve® Vietnam Da Lat ,011076968&011076969&011076970
+French Press Starbucks Reserve® Vietnam Da Lat 3 Cup,011076971
+French Press Starbucks Reserve® Vietnam Da Lat 8 Cup,011076972
+Cortado 4 Oz,011077128
+Vanilla Sweet Cream Nitro Cold Brew ,011077209&011077220
+ Horchata Almondmilk Frappuccino® Blended Beverage,011077975
+Pineapple Infusion,011078221
+Extra Pineapple Infusion,011078228
+Strawberry Infusion,011078230
+Extra Strawberry Infusion,011078233
+Peach Citrus Infusion,011078241
+Extra Peach Citrus Infusion,011078244
+Regular Splash of White Tea,011078523
+Splash of White Tea sub,011078524
+Extra Splash of White Tea,011078525
+No Splash of White Tea,011078526
+Light Splash of White Tea,011078527
+ Honey Citrus Mint Tea,011079092&011079093&011079094&011079095
+Regular Dark Mocha Powder,011079116
+Pink Drink ,011079356&011079357&011079358&011079359
+Clover® Starbucks Reserve® Microblend No. 21 ,011079462&011079463
+ Iced Cappuccino with Cold Foam,011080297
+Toasted White Chocolate Mocha Frappuccino® Blended Beverage ,011081063&011081064&011081065
+Toasted White Chocolate Crème Frappuccino® Blended Beverage ,011081069
+ Toasted White Chocolate Crème Blended Beverage Frappuccino®,011081070
+Toasted White Chocolate Crème Frappuccino Blended Beverage ,011081071
+ Toasted White Chocolate Mocha,011081111&011081112&011081113&011081114
+Add Toasted White Chocolate Mocha Sauce,011081115
+Substitute Toasted White Chocolate Mocha Sauce,011081116
+No Toasted White Chocolate Mocha Sauce Modifier,011081117
+Extra Toasted White Chocolate Mocha Sauce Modifier,011081118
+Light Toasted White Chocolate Mocha Sauce Modifier,011081119
+ Iced Toasted White Chocolate Mocha,011081220&011081222&011081223
+Iced Matcha Lemonade ,011081989&011081990&011081991&011081992
+Iced Clover® Starbucks Reserve® Paradeisi Blend Vintage 2021 ,011082221
+Iced Pour Over Starbucks Reserve® Paradeisi Blend Vintage 2021 ,011082223
+ Violet Drink,011082261&011082262&011082263&011082264
+Pour Over Starbucks Reserve® Guatemala Yaxbatz Estate ,011082350
+Chemex Starbucks Reserve® Guatemala Yaxbatz Estate 24 ounces,011082356
+bread Sugar Topping,011082406
+Holiday Sugar Sparkles,011082411
+Sub Holiday Sugar Sparkles,011082412
+No Holiday Sugar Sparkles,011082413
+Light Holiday Sugar Sparkles,011082414
+Extra Holiday Sugar Sparkles,011082415
+ Toasted White Chocolate Cocoa,011082878&011082879&011082880&011082881&011086264
+Sub Black and White Mocha Topping,011084002
+Black Tea Latte ,011084086&011084087&011084088&011084089
+Rooibos Tea Latte ,011084093&011084094&011084095&011084096
+Iced Rooibos Tea Latte ,011084097&011084098&011091970&011091971&011091972
+Matcha Green Tea Latte ,011084100&011084101&011084102&011084103
+Iced Matcha Green Tea Latte ,011084104&011084106&011084107
+Teavana® Blossoming Rose Tea Latte ,011084279&011084280&011084281&011084282
+Starbucks® Blonde Caramel Macchiato ,011084335&011084336&011084337&011084338
+Iced Starbucks® Blonde Caramel Macchiato ,011084339&011084340&011084364
+Blonde Cinnamon Dolce Latte ,011084366&011084368&011084369&011084370
+Iced Blonde Cinnamon Dolce Latte ,011084371&011084372&011084374
+Blonde White Chocolate Mocha ,011084471&011084478&011084480&011084481
+Iced Blonde White Chocolate Mocha ,011084552&011084553&011084554
+ Starbucks® Blonde Caffè Americano,011084556&011084557&011084558&011084559
+ Iced Starbucks® Blonde Caffè Americano,011084560&011084561&011084562
+Iced Blonde Espresso Double,011084564
+Iced Blonde Espresso Triple,011084567
+Iced Blonde Espresso Quad,011084569
+Iced Blonde Espresso Single,011084570
+ Starbucks® Blonde Cappuccino,011084571&011084575&011084579&011084582
+ Iced Starbucks® Blonde Cappuccino,011084584&011084588&011084589
+Blonde Skinny Caffè Latte ,011084592&011084593&011084594
+Iced Blonde Skinny Caffè Latte ,011084595&011084596&011084651
+ Starbucks® Blonde Flat White,011084653&011084691&011084692&011084693
+Americano Misto ,011084672&011084673&011084674&011084675
+Iced Americano Misto ,011084676&011084677&011084678
+ Starbucks® Blonde Doubleshot® On Ice,011084694&011084695&011084696
+Starbucks® Blonde Americano Misto ,011084761&011084762&011084763&011084764
+Iced Starbucks® Blonde Americano Misto ,011084766&011084767&011084768
+Blonde Skinny Cinnamon Dolce Latte ,011084772&011084773&011084774&011084777
+Iced Blonde Skinny Cinnamon Dolce Latte ,011084779&011084790&011084791
+ Starbucks® Blonde Caramel Brulée Latte,011084828
+Blonde Espresso Single,011084961
+Blonde Espresso Double,011084962
+Blonde Espresso Triple,011084963
+Blonde Espresso Quad,011084964
+Blonde Caffè Mocha ,011085029&011085032&011085033&011085035
+Iced Blonde Caffè Mocha ,011085037&011085039&011085040
+Blonde Espresso Con Panna Single,011085042
+Blonde Espresso Con Panna Double,011085043
+Blonde Espresso Con Panna Triple,011085044
+Blonde Espresso Con Panna Quad,011085045
+Blonde Latte Macchiato ,011085082&011087043&011087044&011087047
+Sub Blossoming Rose Syrup,011085134
+Add Blossoming Rose Syrup,011085135
+Sub Blossoming Rose Topping,011085136
+Regular Blossoming Rose Topping,011085137
+Brazil Isidro Pereira Estate Clover® Starbucks Reserve® ,011085510&011085511&011085512&011085513
+Iced Brazil Isidro Pereira Estate Clover® Starbucks Reserve® ,011085514&011085515&011085516
+Cardamom Spice Topping,011085772
+Substitute Cardamom Spice Topping,011085773
+Blonde Salted Caramel Mocha ,011085815&011085817
+Iced Blonde Salted Caramel Mocha ,011085820
+Iced Blonde Latte Macchiato ,011085953&011085954&011085955
+Blonde Skinny Caramel Macchiato ,011086168&011086175&011086204
+Iced Blonde Skinny Caramel Macchiato ,011086205&011086206&011086207
+Iced Cherry Hot Chocolate ,011086340&011086341&011086342
+ Iced Starbucks® Blonde Flat White,011087380&011087381&011087382
+Bolivia Sol de la Manana Clover® Starbucks Reserve® ,011087450&011087451&011087452
+Iced Bolivia Sol de la Manana Clover® Starbucks Reserve® ,011087453&011087454&011087455
+Iced Pour Over Bolivia Sol de la Manana Brewed Coffee ,011087465
+Pour Over Starbucks Reserve® Bolivia Buenavista Estate Geisha ,011087506
+Pour Over Starbucks Reserve® Sun-Dried Ethiopia Haile Estate ,011087524
+Iced Blonde Espresso Con Panna Double,011087802
+No Rose Topping,011088722
+Cold Foam,011089081
+Sub Cold Foam,011089082
+No Cold Foam,011089083
+Light Cold Foam,011089084
+Extra Cold Foam,011089085
+Regular Cascara Cold Foam,011089356
+Add Sugar Free Simple Syrup,011089408
+No Sugar Free Simple Syrup,011089411
+Sub Sugar Free Simple Syrup,011089412
+No Blossoming Rose Syrup,011089505
+Light Blossoming Rose Syrup,011089506
+Extra Blossoming Rose Syrup,011089507
+No Blossoming Rose Topping,011089508
+Light Blossoming Rose Topping,011089509
+Extra Blossoming Rose Topping,011089510
+ Nitro Cold Brew with Cascara Cold Foam,011089559&011089560
+ Cold Brew with Cascara Cold Foam,011089596
+Reserve Hot Chocolate ,011089848&011089849
+Add Black Tea Powder,011089959
+Sub Black Tea Powder,011089960
+No Black Tea Powder,011089961
+Light Black Tea Powder,011089962
+Add Rooibos Tea Powder,011089963
+Sub Rooibos Tea Powder,011089964
+Extra Black Tea Powder,011089971
+Matcha Tea Lemonade ,011090018&011090020&011090021
+Regular Mango Dragonfruit Refresher (Juice),011090055
+Sub Mango Dragonfruit Refresher (Juice),011090056
+No Mango Dragonfruit Refresher (Juice),011090057
+Light Mango Dragonfruit Refresher (Juice),011090058
+Extra Mango Dragonfruit Refresher (Juice),011090059
+Add Dragonfruit Inclusion,011090061
+No Dragonfruit Inclusion,011090062
+Substitute Dragonfruit Inclusion,011090063
+Extra Dragonfruit Inclusion,011090064
+Light Dragonfruit Inclusion,011090065
+Matcha Lemonade ,011090069
+ Mango Dragonfruit Starbucks Refreshers® Beverage,011090214&011090215&011090216&011090217
+ Strawberry Frappuccino® Blended Crème,011090844&011090845&011090846
+Regular Sweet Cold Brew Whipped Cream (contains caffeine),011090880
+Extra Sweet Cold Brew Whipped Cream (contains caffeine),011090884
+Add Ultra Dark Caramel Sauce,011090888
+Substitute New Dark Caramel Sauce,011090889
+No New Dark Caramel Sauce,011090890
+Light New Dark Caramel Sauce,011090891
+Extra New Dark Caramel Sauce,011090892
+Sub Strawberry Purée,011091057
+No Strawberry Purée,011091058
+Light Strawberry Purée,011091059
+Extra Strawberry Purée,011091060
+Add Bitter Chocolate Flavor Mist,011091128
+ Iced Starbucks Reserve® Zambia Isanya Estate,011091319&011091320&011091321
+Siphon Starbucks Reserve® Zambia Isanya Estate ,011091405
+Iced Black Tea Latte ,011091869&011091948&011091969
+No 2% Milk Creamer,011091954
+Iced Teavana® Blossoming Rose Tea Latte ,011091981&011091982&011091983
+Peach Ginger Spritz ,011092122&011092124&011092125
+ Strawberry Acai Lemonade Starbucks Refreshers®,011092418&011092419&011092420&011092421
+ Very Berry Hibiscus Lemonade Starbucks Refreshers®,011092426&011092427&011092428&011092429
+ Mango Dragonfruit Lemonade Starbucks Refreshers® Beverage,011092430&011092431&011092432&011092433
+Chemex Starbucks Reserve® Sun-Dried Bolivia Kusillo Java 24 ounces,011092771
+Salted Caramel Cream Cold Brew ,011093429&011093430&011093441&011093452
+Salted Caramel Cream Nitro Cold Brew ,011094129&011094130
+ Cold Brew with Cold Foam,011094325&011094326&011094327&011094328
+ Dragon Drink,011094878&011094879&011094880&011094881
+Strawberry Coconut Drink ,011095200&011095201&011095204&011095205
+Hops Syrup modifier light,011096351
+Hops Syrup modifier no,011096352
+Hops Syrup modifier extra,011096353
+Hops Syrup sub,011096354
+Clover® Starbucks Reserve® Costa Rica Naranjo ,011096458&011096459&011096460&011096461
+Iced Clover® Starbucks Reserve® Costa Rica Naranjo ,011096462&011096463&011096464
+Salted Cream Cold Foam,011097081
+Sub Salted Cream Cold Foam,011097082
+No Dried Fruit,011098329
+No Nut Medley,011098330
+No Agave,011099050
+Sub Non-Dairy Base,011099545
+Chai Tea ,011100848&011100849&011100850&011100851
+Clover X Starbucks Reserve® Vietnam Da Lat ,011100946&011100947&011100948&011100949
+Iced Caramel Cloud Macchiato ,011103111&011103112&011103113
+ Caramel Cloud Macchiato,011103114&011103115&011103116&011103117
+ Iced Starbucks® Blonde Caramel Cloud Macchiato,011103118&011103119&011103120
+ Starbucks® Blonde Caramel Cloud Macchiato,011103121&011103122&011103123&011103124
+Iced Cocoa Cloud Macchiato ,011103380&011103381&011103382
+Cocoa Cloud Macchiato ,011103383&011103384&011103385&011103386
+Iced Starbucks® Blonde Cocoa Cloud Macchiato ,011103389&011103390&011103391
+Starbucks® Blonde Cocoa Cloud Macchiato ,011103392&011103393&011103394&011103395
+Teavana® Custom Iced Tea Latte ,011103710&011103711&011103712
+No Caramel Crunch Topping,011104447
+Regular Caramel Crunch Topping,011104448
+Sub Caramel Crunch Topping,011104449
+Light Caramel Crunch Topping,011104450
+Extra Caramel Crunch Topping,011104451
+Teavana® Iced Peach Green Tea Lemonade ,011105756&011105757&011105758&011105759&011126350&011126351&011126352&011126353
+Teavana® Shaken Iced Peach Green Tea ,011105760&011105761&011105763&011126346&011126348&011126349
+Teavana® Iced Peach Green Tea ,011105762&011126347
+Teavana® Iced Guava White Tea Lemonade ,011105764&011105765&011105766&011105767
+Teavana® Iced Guava White Tea ,011105768&011105769&011105770&011105771
+Clover X Starbucks Reserve® Hawaii Ka'u ,011106759&011106760&011106761&011106762
+Regular Guava Juice Blend,011107439
+Sub Guava Juice Blend,011107440
+Extra Guava Juice Blend,011107441
+Light Guava Juice Blend,011107442
+Regular Peach Juice Blend,011107443
+Sub Peach Juice Blend,011107444
+Light Peach Juice Blend,011107445
+Extra Peach Juice Blend,011107446
+Pumpkin Cream Cold Brew ,011109917&011109918&011109919&011109920
+Nitro Cold Brew with Pumpkin Cream Cold Foam ,011109921&011109922
+Clover® Starbucks Reserve® Rainshine Blend - Ethiopia Kayon Mountain Farm ,011110168&011110169
+Iced Clover® Starbucks Reserve® Rainshine Blend - Ethiopia Kayon Mountain Farm ,011110178
+Irish Cream Americano ,011111731&011111732&011111734&011111735
+Irish Cream Cold Brew ,011111805&011111806&011111807&011111808
+Irish Cream Nitro Cold Brew ,011111809&011111810
+Iced Irish Cream Americano  ,011111992&011111993&011111994
+Kiwi Starfruit Starbucks Refreshers® Iced Beverage ,011112361&011112365&011112366&011112367
+Star Drink ,011112368&011112369&011112370&011112371
+No Honey Blend,011112415
+Add Honey Blend,011112416
+Sub Honey Blend,011112417
+Light Honey Blend,011112418
+Extra Honey Blend,011112419
+Add Oatly Oatmilk,011112911
+Sub Oatly Oatmilk,011112912
+Light Oatly Oatmilk,011112913
+Extra Oatly Oatmilk,011112914
+Regular Toasted Honey Topping,011113092
+No Toasted Honey Topping,011113093
+Sub Toasted Honey Topping,011113094
+Light Toasted Honey Topping,011113095
+Extra Toasted Honey Topping,011113096
+No Kiwi Preserved Fruit,011113148
+Add Kiwi Preserved Fruit,011113149
+Sub Kiwi Preserved Fruit,011113150
+Light Kiwi Preserved Fruit,011113151
+Extra Kiwi Preserved Fruit,011113152
+Honey Almondmilk Flat White ,011113625&011113626&011113627&011113628&011118996&011118997&011118998&011118999
+Honey Oatmilk Latte ,011113629&011113630&011113631&011113632&011124551&011124552&011124553&011124554
+Coconutmilk Cascara Latte ,011113633&011113634&011113635&011113636
+Coconutmilk Cascara Latte with Starbucks® Blonde Espresso ,011113734&011113735&011113736&011113737
+Almondmilk Honey Flat White ,011113740&011113741&011113742&011113743&011119004&011119005&011119006&011119007
+Oatmilk Honey Latte ,011113745&011113746&011113747&011113748
+Iced Honey Almondmilk Flat White ,011113753&011113754&011113755&011119000&011119001&011119002
+Iced Coconutmilk Cascara Latte with Starbucks® Blonde Espresso ,011113794&011113795&011113796
+Iced Honey Oatmilk Latte ,011113980&011113981&011113982&011124555&011124556&011124557
+Iced Almondmilk Honey Flat White ,011113985&011113986&011113987&011119008&011119009&011119010
+Iced Coconutmilk Cascara Latte ,011113988&011113989&011113990
+Iced Oatmilk Honey Latte ,011113993&011113994&011113995
+No Kiwi Starfruit Refreshers Base,011114032
+Regular Kiwi Starfruit Refreshers Base,011114033
+Sub Kiwi Starfruit Refreshers Base,011114034
+Light Kiwi Starfruit Refreshers Base,011114035
+Extra Kiwi Starfruit Refreshers Base,011114036
+No Barista Cocoa Powder,011115116
+Regular Barista Cocoa Powder,011115117
+Sub Barista Cocoa Powder,011115118
+Light Barista Cocoa Powder,011115119
+Extra Barista Cocoa Powder,011115120
+Iced Pineapple Matcha Drink ,011115292&011115293&011115294&011116528&011116529&011116530
+Iced Golden Ginger Drink ,011115296&011115297&011115298
+Iced Guava Black Tea ,011115306&011115307&011115308&011115309&011126334&011126335&011126336&011126337
+Iced Guava Black Tea Lemonade ,011115310&011115311&011115312&011115313&011126342&011126343&011126344&011126345
+Iced Guava Passionfruit Drink ,011115314&011115315&011115316
+No Golden Ginger Blend Modifier,011115318
+Add Golden Ginger Blend,011115319
+Sub Golden Ginger Blend,011115320
+Light Golden Ginger Blend Modifier,011115321
+Extra Golden Ginger Blend Modifier,011115322
+No Pineapple Ginger Syrup Modifier,011115324
+Add Pineapple Ginger Syrup,011115325
+Sub Pineapple Ginger Syrup,011115326
+Light Pineapple Ginger Syrup Modifier,011115327
+Extra Pineapple Ginger Syrup Modifier,011115328
+Regular Vanilla Sweet Cream Cold Foam,011115659
+Sub Vanilla Sweet Cream Cold Foam,011115660
+No Vanilla Sweet Cream Cold Foam,011115661
+Light Vanilla Sweet Cream Cold Foam,011115662
+Extra Vanilla Sweet Cream Cold Foam,011115663
+Kiwi Starfruit Lemonade Starbucks Refreshers® Iced Beverage ,011115921&011115922&011115923&011115924
+Nitro Cold Brew with Salted Honey Cold Foam ,011116511&011116512
+Cold Brew with Salted Honey Cold Foam ,011116515&011116516&011116517&011116518
+Clover® Starbucks Reserve® Sun-Dried Papua New Guinea Ulya ,011116705&011116706&011116707&011116708
+Iced Clover® Starbucks Reserve® Sun-Dried Papua New Guinea Ulya ,011116709&011116710&011116711
+No Salted Honey Cold Foam,011116810
+Salted Honey Cold Foam,011116811
+Sub Salted Honey Cold Foam,011116812
+Light Salted Honey Cold Foam,011116813
+Extra Salted Honey Cold Foam,011116814
+Spiced Chaider ,011117078
+Clover® Passport Series: Anniversary Blend ,011117217&011117218&011117219&011117220
+Iced Clover® Passport Series: Anniversary Blend ,011117221&011117222
+Clover® Passport Series: West Java ,011117233
+Iced Clover® Passport Series: West Java ,011117236
+Regular Splash of Oatmilk,011117708
+Regular Cinnamon Almondmilk Foam,011118497&011119130
+Sub Cinnamon Almondmilk Foam,011118498&011119131
+Light Cinnamon Almondmilk Foam,011118499&011119134
+Extra Cinnamon Almondmilk Foam,011118500&011119133
+Dark Cocoa Almondmilk Foam,011118504
+Sub Dark Cocoa Almondmilk Foam,011118505
+Light Dark Cocoa Almondmilk Foam,011118506
+Extra Dark Cocoa Almondmilk Foam,011118507
+Cinnamon Oatmilk Foam,011118508
+Sub Cinnamon Oatmilk Foam,011118509
+Light Cinnamon Oatmilk Foam,011118510
+Extra Cinnamon Oatmilk Foam,011118511
+Cold Brew with Cinnamon Almondmilk Foam ,011118512&011118513&011118514&011118782
+Cold Brew with Dark Cocoa Almondmilk Foam ,011118515&011118783&011121248&011121249
+Cold Brew with Cinnamon Oatmilk Foam ,011118518&011118784&011121250&011121251
+Nitro Cold Brew with Cinnamon Almondmilk Foam ,011118523&011118524
+Nitro Cold Brew with Dark Cocoa Almondmilk Foam ,011118526&011118527
+Nitro Cold Brew with Cinnamon Oatmilk Foam ,011118530&011118531
+Regular Cinnamon Soymilk Foam,011118836&011119145
+Sub Cinnamon Soymilk Foam,011118837&011119146
+Light Cinnamon Soymilk Foam,011118838&011119149
+Extra Cinnamon Soymilk Foam,011118839&011119148
+Regular Dark Cocoa Soymilk Foam,011118841
+Light Dark Cocoa Soymilk Foam,011118843
+Extra Dark Cocoa Soymilk Foam,011118844
+Regular Dark Cocoa Oatmilk Foam,011118849
+Sub Dark Cocoa Oatmilk Foam,011118850
+Light Dark Cocoa Oatmilk Foam,011118851
+Extra Dark Cocoa Oatmilk Foam,011118852
+Apple Oat Flat White  ,011118957&011118958&011118959&011118960
+Coconut Cascara Latte ,011119014&011119015&011119016&011119017
+Iced Coconut Cascara Latte ,011119018&011119019&011119020
+Iced Coconut Cascara Latte with Starbucks Blonde® Espresso ,011119021&011119022&011119023
+Coconut Cascara Latte with Starbucks Blonde® Espresso ,011119024&011119025&011119026&011119027
+Cold Brew with Cinnamon Almond Foam ,011119074&011119075&011119076&011119077
+Nitro Cold Brew with Cinnamon Almond Foam ,011119080&011119081
+Apple Syrup  add,011119116
+Apple Syrup modifier  no,011119117
+Apple Syrup modifier  extra,011119118
+Apple Syrup modifier  light,011119119
+Apple Syrup  sub,011119120
+Clove Sugar Topping modifier  regular,011119122
+Clove Sugar Topping modifier  sub,011119123
+Clove Sugar Topping modifier  no,011119124
+Clove Sugar Topping modifier  extra,011119125
+Clove Sugar Topping modifier  light,011119126
+No Cinnamon Almondmilk Foam,011119132&011121995
+Iced Pour Over Starbucks Reserve® Brazil Santuario Sul ,011119311
+Clover X Starbucks Reserve® Brazil Santuario Sul ,011119320&011119321&011119322&011119323
+Oat Latte  ,011119338&011119339&011119340&011119341
+Oat Beverage  add,011119668
+Clover® Starbucks Reserve® Mount Kenya Baragwi ,011119756&011119757&011119758&011119759
+Iced Clover Kenya Baragwi Brewed Coffee  ,011119763&011119764&011119765
+Iced Apple Oat Flat White  ,011120270&011120271&011120272
+Iced Oat Latte  ,011120577&011120578&011120579
+Clover X Costa Rica Naranjo ,011120743
+Chestnut Praline Crème ,011120932&011120933&011120934&011120935&011120936
+Peppermint White Chocolate Crème Frappuccino Blended Beverage ,011120937&011120938&011120939
+Pineapple Coconut Green Smoothie ,011121780
+Pistachio Sauce add,011121786
+Pistachio Sauce no,011121787
+Pistachio Sauce sub,011121788
+Pistachio Sauce light,011121789
+Pistachio Sauce extra,011121790
+Salted Brown Butter Topping regular,011121791
+Salted Brown Butter Topping sub,011121792
+Salted Brown Butter Topping no,011121793
+Salted Brown Butter Topping light,011121794
+Salted Brown Butter Topping extra,011121795
+Clover Guatemala Huehuetenango ,011122196&011122197&011122198&011122199
+Iced Clover Guatemala Huehuetenango ,011122201&011122202
+Sugar Cookie Almondmilk Latte ,011122433&011122434&011122435&011122436
+Iced Sugar Cookie Almondmilk Latte ,011122437&011122438&011122439
+Cinnamon Spice Oatmilk Latte ,011122442
+Red and Green Sprinkle Topping modifier sub,011123071
+Red and Green Sprinkle Topping modifier regular,011123072
+Red and Green Sprinkle Topping modifier no,011123073
+Red and Green Sprinkle Topping modifier light,011123074
+Red and Green Sprinkle Topping modifier extra,011123075
+Cinnamon Spice Syrup add,011123080
+Sugar Cookie Syrup sub,011123081
+Sugar Cookie Syrup modifier light,011123083
+Sugar Cookie Syrup modifier extra,011123084
+Sugar Cookie Syrup modifier no,011123085
+Sugar Cookie Syrup add,011123088
+Pumpkin Cream Cold Foam Option modifier no,011123688
+Pumpkin Cream Cold Foam Option modifier regular,011123689
+Pumpkin Cream Cold Foam Option modifier sub,011123690
+Pumpkin Cream Cold Foam Option modifier light,011123691
+Pumpkin Cream Cold Foam Option modifier extra,011123692
+Splash of Oat Beverage regular,011123780
+Splash of Oat Beverage light,011123781
+Splash of Oat Beverage extra,011123782
+Splash of Oat Beverage no,011123783
+Splash of Oat Beverage sub,011123784
+Honey Almondmilk Cold Brew  ,011124425&011124426&011124427
+Honey Almondmilk Nitro Cold Brew  ,011124535&011124536
+Pistachio Latte ,011124538&011124539&011124540&011124541
+Pistachio Coffee Frappuccino® Blended Beverage ,011124542&011124543&011124544
+Iced Pistachio Latte ,011124545&011124546&011124547
+Pistachio Crème Frappuccino® Blended Beverage ,011124548&011124549&011124550
+Pistachio Crème ,011124715&011124716&011124717&011124718&011124719
+Sugar Cookie Almondmilk Frappuccino® Blended Beverage ,011125300&011125301&011125302
+Sugar Cookie Almondmilk Crème Frappuccino® Blended Beverage ,011125303&011125304&011125312
+Brown Sugar Syrup sub,011125325
+Brown Sugar Syrup modifier light,011125326
+Brown Sugar Syrup modifier extra,011125327
+Brown Sugar Syrup modifier no,011125328
+Brown Sugar Syrup add,011125329
+Iced Brown Sugar Oatmilk Shaken Espresso ,011125525&011125526&011125527
+Iced Chocolate Almondmilk Shaken Espresso ,011125528&011125529&011125530
+Salted Cream Cold Foam no,011125657
+Salted Cream Cold Foam light,011125658
+Salted Cream Cold Foam extra,011125659
+Iced Shaken Espresso ,011125734&011125735&011125736
+Chocolate Malt Powder modifier sub,011125799
+Chocolate Malt Powder modifier no,011125800
+Chocolate Malt Powder modifier light,011125801
+Chocolate Malt Powder modifier regular,011125802
+Chocolate Malt Powder modifier extra,011125803
+Honey Almondmilk Cold Brew ,011126149
+Brown Sugar Oat Americano ,011126411&011126412&011126413&011126414
+Iced Clover Guatemala El Socorro ,011126947
+Pour Over Guatemala El Socorro ,011126951
+Iced Pour Over Guatemala El Socorro ,011126954
+Iced Pour Over Colombia Finca La Reserva ,011127431
+Strawberry Funnel Cake Frappuccino® Blended Beverage ,011127847&011127848&011127849
+Strawberry Funnel Cake Creme Frappuccino® Blended Beverage ,011127850&011127851&011127852
+Splash of Oatmilk extra,011128033
+Splash of Oatmilk light,011128034
+Splash of Oatmilk no,011128035
+Splash of Oatmilk sub,011128036
+Powdered Sugar Funnel Cake Topping sub,011128242
+Powdered Sugar Funnel Cake Topping no,011128243
+Powdered Sugar Funnel Cake Topping light,011128244
+Powdered Sugar Funnel Cake Topping regular,011128245
+Powdered Sugar Funnel Cake Topping extra,011128246
+Funnel Cake Syrup no,011128247
+Funnel Cake Syrup extra,011128249
+Funnel Cake Syrup add,011128250
+Funnel Cake Syrup sub,011128251
+Strawberry Drizzle modifier sub,011128974
+Strawberry Drizzle modifier no,011128975
+Strawberry Drizzle modifier light,011128976
+Strawberry Drizzle modifier regular,011128977
+Strawberry Drizzle modifier extra,011128978
+Sangria Spritz ,011130049&011130050&011130051
+Puerto Rico Yauco Selecto Starbucks Reserve® Espresso Shot add,011130629
+Clover Puerto Rico Yauco Selecto Starbucks Reserve® ,011130638&011130639&011130640&011130641
+Iced Clover Puerto Rico Yauco Selecto Starbucks Reserve® ,011130642&011130643&011130644
+Pour Over Puerto Rico Yauco Selecto Starbucks Reserve® ,011130645&011130646&011130647&011130648
+Iced Pour Over Puerto Rico Yauco Selecto Starbucks Reserve® ,011130649&011130650&011130651
+Coffee Press Puerto Rico Yauco Selecto Starbucks Reserve® 3Cup,011130653
+Coffee Press Puerto Rico Yauco Selecto Starbucks Reserve® 8Cup,011130654
+Chemex Puerto Rico Yauco Selecto Starbucks Reserve® 24Oz,011130655
+Siphon Puerto Rico Yauco Selecto Starbucks Reserve® ,011130656
+Clover X Puerto Rico Yauco Selecto Starbucks Reserve® ,011130657&011130658&011130659&011130660
+Apple Crisp Macchiato ,011130839&011130840&011130841&011130842
+Iced Apple Crisp Macchiato ,011130843&011130844&011130845
+Apple Crisp Frappuccino® ,011130847&011130848&011130849
+Apple Crisp Crème Frappuccino® ,011130850&011130851&011130852
+Salted Caramel Cream Cold Foam modifier sub,011130855
+Salted Caramel Cream Cold Foam modifier no,011130856
+Salted Caramel Cream Cold Foam modifier light,011130857
+Salted Caramel Cream Cold Foam modifier regular,011130858
+Salted Caramel Cream Cold Foam modifier extra,011130859
+Spiced Apple Drizzle modifier sub,011131094
+Spiced Apple Drizzle modifier no,011131095
+Spiced Apple Drizzle modifier light,011131096
+Spiced Apple Drizzle modifier regular,011131097
+Spiced Apple Drizzle modifier extra,011131098
+Apple Brown Sugar sub,011131099
+Apple Brown Sugar add,011131100
+Apple Brown Sugar modifier extra,011131101
+Apple Brown Sugar modifier light,011131102
+Apple Brown Sugar modifier no,011131103
+Honey Malt Flavor modifier no,011131738
+Honey Malt Flavor modifier extra,011131739
+Honey Malt Flavor sub,011131741
+Splash of Non-Dairy Milk modifier sub,011131898
+Splash of Non-Dairy Milk modifier regular,011131899
+Splash of Non-Dairy Milk modifier no,011131900
+Splash of Non-Dairy Milk modifier light,011131901
+Splash of Non-Dairy Milk modifier extra,011131902
+Non-Dairy Whipped Cream modifier sub,011131903
+Non-Dairy Whipped Cream modifier no,011131904
+Non-Dairy Whipped Cream modifier light,011131905
+Non-Dairy Whipped Cream modifier regular,011131906
+Non-Dairy Whipped Cream modifier extra,011131907
+Non-Dairy Vanilla Sweet Cream modifier sub,011131908
+Non-Dairy Vanilla Sweet Cream modifier no,011131909
+Non-Dairy Vanilla Sweet Cream modifier light,011131910
+Non-Dairy Vanilla Sweet Cream modifier regular,011131911
+Non-Dairy Vanilla Sweet Cream modifier extra,011131912
+Costa Rica Naranjo Starbucks Reserve® ,011132088&011132089&011132090
+Non-Dairy Milk modifier sub,011132100
+Non-Dairy Milk modifier no,011132101
+Non-Dairy Milk modifier light,011132102
+Non-Dairy Milk modifier regular,011132103
+Non-Dairy Milk modifier extra,011132104
+Blue Color modifier sub,011132437
+Blue Color modifier no,011132438
+Blue Color modifier light,011132439
+Blue Color modifier extra,011132441
+Green Color modifier sub,011132442
+Green Color modifier no,011132443
+Green Color modifier light,011132444
+Green Color modifier extra,011132446
+Yellow Color modifier sub,011132447
+Yellow Color modifier no,011132448
+Yellow Color modifier light,011132449
+Yellow Color modifier extra,011132451
+Sugar Cookie Oatmilk Latte ,011132709&011132710&011132711&011132712
+Iced Sugar Cookie Oatmilk Latte ,011132713&011132714&011132715
+Shot in the Dark ,011132877&011132878&011132879
+Passion Guava Fizz ,011132880&011132881&011132882
+Irish Cream Cold Foam modifier sub,011133120
+Irish Cream Cold Foam modifier no,011133121
+Irish Cream Cold Foam modifier light,011133122
+Irish Cream Cold Foam modifier regular,011133123
+Irish Cream Cold Foam modifier extra,011133124
