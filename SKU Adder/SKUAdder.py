@@ -19,10 +19,10 @@ class Product:
     itemName = ''
     info = (0)
     
-    def __init__(self, itemName, itemSKU):
+    def __init__(self, itemName, Barcode):
         self.itemName = itemName
         # if product is already in the set modify it size and calories
-        self.info =  (itemSKU)
+        self.info =  (Barcode)
 
     def __str__(self):
         return self.itemName + ': ' + self.info[0] 
@@ -37,7 +37,7 @@ fileContent = fileReader.read()
 
 products = [] 
 
-outputString = "Name,ItemSKU\n"
+outputString = "Name,Barcode\n"
 removeSizes = ["Venti", "Tall", "Short", "Grande", "Kids", "Trenta"]
 for line in fileContent.split("\n"):
     columns = line.split(",")
@@ -46,8 +46,8 @@ for line in fileContent.split("\n"):
         name = columns[1]
         for size in removeSizes:
             name = name.replace(size, '')
-        itemSKU = columns[0]
-        products.append(Product(name, itemSKU))
+        Barcode = columns[0]
+        products.append(Product(name, Barcode))
     else: 
         print(columns)
 
@@ -79,15 +79,16 @@ finalDF = pd.read_csv('final.csv', encoding='UTF-8')
 # Get Starbucks Master Global DF
 globalDF = pd.read_csv('master.csv', encoding='UTF-8')
 
-with io.open("valuecheck.txt", "w", encoding="utf-8") as output:
+
+#combine CSV
+completedDF = pd.concat([finalDF, outputDF[~outputDF.Name.isin(finalDF.Name)]])
+completedDF.set_index('Global ID', inplace=True)
+completedDF.to_csv('completed.csv')
+
+#with io.open("valuecheck.txt", "w", encoding="utf-8") as output:
     # checks to see which values don't match
     #output.write(outputDF[~outputDF.Name.isin(finalDF.Name)].to_string())
     #output.write(finalDF[~finalDF.Name.isin(outputDF.Name)].to_string())
     # checks to see if there are matching product names
-    output.write(outputDF[outputDF.Name.isin(finalDF.Name)].to_string())
+    #output.write(outputDF[outputDF.Name.isin(finalDF.Name)].to_string())
     #output.write(finalDF[finalDF.Name.isin(finalDF.Name)].to_string())
-
-#df = pd.merge(finalDF,bevDF, on='Barcode', how="left")
-#pd.merge(finalDF, globalDF, on=['Global ID',  'Name'], how='left')
-
-#finalDF.to_csv('output.csv', index=False)
