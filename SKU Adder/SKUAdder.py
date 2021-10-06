@@ -38,7 +38,8 @@ fileContent = fileReader.read()
 products = [] 
 
 outputString = "Name,Barcode\n"
-removeSizes = ["Venti", "Tall", "Short", "Grande", "Kids", "Trenta"]
+removeSizes = [" Kids", " Short", " Tall", " Grande", " Venti", " Trenta",
+    "Kids ", "Short ", "Tall ", "Grande ", "Venti ", "Trenta "]
 for line in fileContent.split("\n"):
     columns = line.split(",")
     if len(columns) > 4:
@@ -82,13 +83,7 @@ globalDF = pd.read_csv('master.csv', encoding='UTF-8')
 
 #combine CSV
 completedDF = pd.concat([finalDF, outputDF[~outputDF.Name.isin(finalDF.Name)]])
+completedDF.update(finalDF)
 completedDF.set_index('Global ID', inplace=True)
 completedDF.to_csv('completed.csv')
 
-#with io.open("valuecheck.txt", "w", encoding="utf-8") as output:
-    # checks to see which values don't match
-    #output.write(outputDF[~outputDF.Name.isin(finalDF.Name)].to_string())
-    #output.write(finalDF[~finalDF.Name.isin(outputDF.Name)].to_string())
-    # checks to see if there are matching product names
-    #output.write(outputDF[outputDF.Name.isin(finalDF.Name)].to_string())
-    #output.write(finalDF[finalDF.Name.isin(finalDF.Name)].to_string())
