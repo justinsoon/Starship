@@ -11,7 +11,6 @@ import io
 #    #GET SKU from sheets bev master sheets                                                 #
 #        #editing specifically the barcode cell with SKU with multiple sizes)               #
 #    #multiple size SKU joined with &                                                       #
-#        #append nutrional data with edited string                                          #
 #    #export new CSV                                                                        #
 #############################################################################################
 
@@ -55,7 +54,6 @@ for i in range(6):
     bevReader.readline()
 
 bevContent = bevReader.read()
-
 bevProducts = [] 
 
 bevOutputString = "Name,Barcode\n"
@@ -87,7 +85,6 @@ for i in range(2):
     foodReader.readline()    
 
 foodContent = foodReader.read()
-
 foodProducts = [] 
 
 foodOutputString = "Name,Barcode\n"
