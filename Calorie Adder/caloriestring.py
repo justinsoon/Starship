@@ -93,14 +93,14 @@ for product in products:
         prodDict[product.productName] = [product.info]
   
 ############### Creating file
-#with io.open("output.txt", "w", encoding="utf-8") as output:
-    #outputString = ("\n".join("{}:\t{}".format(k, v) for k, v in prodDict.items()))
-    #outputString = outputString.replace(', ',' ')[1:-1].replace("'","").replace("'","")
-    #print(outputString)
+with io.open("output.txt", "w", encoding="utf-8") as output:
+    outputString = ("\n".join("{}:\t{}".format(k, v) for k, v in prodDict.items()))
+    outputString = outputString.replace(', ',' ')[1:-1].replace("'","").replace("'","")
+    print(outputString)
 
-df = pd.DataFrame.from_dict(prodDict, orient='index')
-df = df.transpose()
-df.to_csv (r'output.csv', index = False, header=True)
+#df = pd.DataFrame.from_dict(prodDict, orient='index')
+#df = df.transpose()
+#df.to_csv (r'output.csv', index = False, header=True)
     
 #############################################################################################
 ############################################# DEBUGGING #####################################
