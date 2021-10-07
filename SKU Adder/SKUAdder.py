@@ -1,5 +1,5 @@
-# importing library
 from os import remove
+import os, glob
 import pandas as pd
 import io
 
@@ -167,22 +167,24 @@ with io.open("globalOutput.csv", "w", encoding="utf-8") as output:
 # convert original CSV to only needed information
 
 # Get Bev into dataframe
-bevOutputDF = pd.read_csv('bevOutput.csv', encoding='UTF-8')
+bevDF = pd.read_csv('bevOutput.csv', encoding='UTF-8')
 # Get Food into dataframe
-foodOutputDF = pd.read_csv('foodOutput.csv', encoding='UTF-8')
+foodDF = pd.read_csv('foodOutput.csv', encoding='UTF-8')
 # Get Starbucks Master Global DF
 globalDF = pd.read_csv('globalOutput.csv', encoding='UTF-8')
 # Get Final Sheet into dataframe
 finalDF = pd.read_csv('final.csv', encoding='UTF-8')
 
 #combine CSV
-#completedDF = bevOutputDF.merge(finalDF, on='Name', how='left')
-finalDF = finalDF.sort_values(by=['Name','Barcode'])
-bevOutputDF = bevOutputDF.sort_values(by=['Name','Barcode'])
-foodOutputDF = foodOutputDF.sort_values(by=['Name','Barcode'])
-globalDF = globalDF.sort_values(by=['Name'])
-finalDF.update(bevOutputDF)
-finalDF.update(foodOutputDF)
-finalDF.update(globalDF)
-finalDF.set_index('Global ID', inplace=True)
-finalDF.to_csv('Completed.csv')
+# beverage SKU added to final
+bevMerge = bevDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
+bevMerge.drop(bevMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
+# food SKU added to final
+foodMerge = foodDF.merge(bevMerge, how='right', suffixes=('', '_y'))
+foodMerge.drop(foodMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
+# Global ID added to final
+globalMerge = globalDF.merge(foodMerge, on='Name', how='right', suffixes=('', '_y'))
+globalMerge.drop(globalMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
+# to CSV
+globalMerge.set_index('Global ID', inplace=True)
+globalMerge.to_csv('completed.csv')
