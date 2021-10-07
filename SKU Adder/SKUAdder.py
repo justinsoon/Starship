@@ -120,7 +120,7 @@ for globalLine in globalContent.split("\n"):
         globalID = globalColumns[0]
         globalID = globalID.replace('\"', '')
         globalProducts.append(Global(globalName, globalID))
-    else: 
+    else:
         print(globalColumns)
 
 # global dict
@@ -163,7 +163,6 @@ for k,v in globalProdDict.items():
 with io.open("globalOutput.csv", "w", encoding="utf-8") as output:
     output.write(globalOutputString)
 
-### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ###
 # convert original CSV to only needed information
 
 # Get Bev into dataframe
@@ -180,11 +179,13 @@ finalDF = pd.read_csv('final.csv', encoding='UTF-8')
 bevMerge = bevDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
 bevMerge.drop(bevMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 # food SKU added to final
-foodMerge = foodDF.merge(bevMerge, how='right', suffixes=('', '_y'))
+foodMerge = foodDF.merge(bevMerge, on='Name', how='right', suffixes=('', '_y'))
 foodMerge.drop(foodMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 # Global ID added to final
 globalMerge = globalDF.merge(foodMerge, on='Name', how='right', suffixes=('', '_y'))
 globalMerge.drop(globalMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 # to CSV
+reorder = globalMerge.pop('Barcode')
+globalMerge.insert(0, 'Barcode', reorder)
 globalMerge.set_index('Global ID', inplace=True)
 globalMerge.to_csv('completed.csv')
