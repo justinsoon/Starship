@@ -1,7 +1,13 @@
 import pandas as pd
+import numpy as np
 import io
-
 ################ Class Objects
+class GlobalProduct:
+    itemName = ''
+    globalID = ''
+    def __init__(self, itemName, globalID):
+        self.itemName = itemName
+        self.globalID =  globalID
 class BevProduct:
     itemName = ''
     info = (0)
@@ -14,12 +20,6 @@ class FoodProduct:
     def __init__(self, itemName, Barcode):
         self.itemName = itemName
         self.info =  (Barcode)
-class GlobalProduct:
-    itemName = ''
-    globalID = ''
-    def __init__(self, itemName, globalID):
-        self.itemName = itemName
-        self.globalID =  globalID
 class CalProduct:
     productName = ''
     info = ('', 0)
@@ -36,10 +36,14 @@ globalProducts = []
 globalProdDict = {}  
 caloriesProducts = [] 
 calProdDict = {} 
-removeSizes = [" Kids", " Short", " Tall", " Grande", " Venti", " Trenta",
-    "Kids ", "Short ", "Tall ", "Grande ", "Venti ", "Trenta "]
+removeSizes = ["Kids", "Short", "Tall", "Grande", "Venti", "Trenta"]
 
 ################ Reading CSVs
+######## Reads Global ID 
+globalReader = open("Master.csv", "r", encoding='UTF-8')
+# skip first row
+globalReader.readline()    
+globalContent = globalReader.read()
 ######## Beverages SKU
 bevReader = open("BevSKU.csv", "r", encoding='UTF-8')
 # skip first six rows
@@ -52,11 +56,6 @@ foodReader = open("FoodSKU.csv", "r", encoding='UTF-8')
 for i in range(2):
     foodReader.readline()    
 foodContent = foodReader.read()
-######## Reads Global ID 
-globalReader = open("Master.csv", "r", encoding='UTF-8')
-# skip first row
-globalReader.readline()    
-globalContent = globalReader.read()
 ######## Calories Info
 calReader = open("Calories.csv", "r", encoding='UTF-8')
 # skip first row
@@ -64,13 +63,29 @@ calReader.readline()
 calContent = calReader.read()
 
 ################ Storing Data
+######## Global        
+output = []
+for globalLine in globalContent.split('\"\n\"'):
+    globalColumns = globalLine.split(',')
+    if len(globalColumns) > 4:
+        globalName = globalColumns[2]
+        globalID = globalColumns[0]
+        globalID = globalID.replace('\"', '')
+        globalProducts.append(GlobalProduct(globalName, globalID))
+    else:
+        print(globalColumns)
+for product in globalProducts:
+    if product.itemName in (globalProdDict):
+        globalProdDict[product.itemName].append(product.globalID)
+    else:
+        globalProdDict[product.itemName] = [product.globalID]
 ######## Beverages
 for bevLine in bevContent.split("\n"):
     bevColumns = bevLine.split(",")
     if len(bevColumns) > 4:
         bevName = bevColumns[1]
         for size in removeSizes:
-            bevName = bevName.replace(size, '')
+            bevName = bevName.replace(size, '').strip()
         bevBarcode = bevColumns[0]
         bevProducts.append(BevProduct(bevName, bevBarcode))
     else: 
@@ -94,21 +109,6 @@ for product in foodProducts:
         foodProdDict[product.itemName].append(product.info)
     else:
         foodProdDict[product.itemName] = [product.info]
-######## Global        
-for globalLine in globalContent.split("\n"):
-    globalColumns = globalLine.split(',')
-    if len(globalColumns) > 4:
-        globalName = globalColumns[2]
-        globalID = globalColumns[0]
-        globalID = globalID.replace('\"', '')
-        globalProducts.append(GlobalProduct(globalName, globalID))
-    else:
-        print(globalColumns)
-for product in globalProducts:
-    if product.itemName in (globalProdDict):
-        globalProdDict[product.itemName].append(product.globalID)
-    else:
-        globalProdDict[product.itemName] = [product.globalID]
 ######## Calories
 for calLine in calContent.split("\n"):
     calColumns = calLine.split(",")
@@ -126,10 +126,18 @@ for product in caloriesProducts:
         calProdDict[product.productName] = [product.info]
 
 ################ Data Sort Formatting
+######## Global 
+globalOutputString = "Name,Global ID\n"
+for k,v in globalProdDict.items():
+    globalOutputString += k + ","
+    for sv in v:    
+        globalOutputString += sv
+    globalOutputString += "\n"
+globalFormatted = io.StringIO(globalOutputString)  
 ######## Beverages
 bevOutputString = "Name,Barcode\n"
 for k,v in bevProdDict.items():
-    bevOutputString += k + ", "
+    bevOutputString += k + ","
     for sv in v:    
         bevOutputString +=  sv + "&"  
     bevOutputString = bevOutputString[:-1]  
@@ -138,20 +146,12 @@ bevFormatted = io.StringIO(bevOutputString)
 ######## Food 
 foodOutputString = "Name,Barcode\n"
 for k,v in foodProdDict.items():
-    foodOutputString += k + ", "
+    foodOutputString += k + ","
     for sv in v:    
         foodOutputString +=  sv + "&"  
     foodOutputString = foodOutputString[:-1]  
     foodOutputString += "\n"
-foodFormatted = io.StringIO(foodOutputString)    
-######## Global 
-globalOutputString = "Name,Global ID\n"
-for k,v in globalProdDict.items():
-    globalOutputString += k + ", "
-    for sv in v:    
-        globalOutputString += sv 
-    globalOutputString += "\n"
-globalFormatted = io.StringIO(globalOutputString)    
+foodFormatted = io.StringIO(foodOutputString)      
 ######## Calories
 calOutputString = "NName,Nutritional Data\n"
 calOutputString += ("\n".join("{},{}".format(k, v) for k, v in calProdDict.items()))
@@ -171,17 +171,19 @@ calDF = pd.read_csv(calFormatted, sep=',')
 finalDF = pd.read_csv('final.csv', encoding='UTF-8')
 
 ################ Combining Data Into A Single Sheet
+######## Global ID
+globalMerge = globalDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
+globalMerge.drop(globalMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Beverages
-bevMerge = bevDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
+bevMerge = bevDF.merge(globalMerge, on='Name', how='right', suffixes=('', '_y'))
+#bevMerge['Barcode'].str.cat(bevMerge.Barcode_y)
 bevMerge.drop(bevMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Food
 foodMerge = foodDF.merge(bevMerge, on='Name', how='right', suffixes=('', '_y'))
+foodMerge["Barcode"] = [''.join(i) for i in zip(foodMerge["Barcode"].map(str),foodMerge["Barcode_y"].map(str))]
 foodMerge.drop(foodMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
-######## Global ID
-globalMerge = globalDF.merge(foodMerge, on='Name', how='right', suffixes=('', '_y'))
-globalMerge.drop(globalMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Calories
-calMerge = calDF.merge(globalMerge, on='Name', how='right', suffixes=('', '_y'))
+calMerge = calDF.merge(foodMerge, on='Name', how='right', suffixes=('', '_y'))
 calMerge.drop(calMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Fixing order of columns
 reorderBarcode = calMerge.pop('Barcode')
