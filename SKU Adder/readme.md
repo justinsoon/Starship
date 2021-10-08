@@ -17,4 +17,4 @@ Two global ID under one product
 ![CSV View](https://i.imgur.com/Hp9og3A.png)
 ![Completed Excel View](https://i.imgur.com/IsAMhRG.png)
 
-Currently Barcode will print nan after combining. Temp solution: highlight all columns and find and replace 'nan' with ''.
+- Currently Barcode will print nan after combining. Temp solution: highlight all columns and find and replace 'nan' with ''.
