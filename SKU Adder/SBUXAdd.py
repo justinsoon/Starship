@@ -152,10 +152,11 @@ for k,v in foodProdDict.items():
     foodOutputString = foodOutputString[:-1]  
     foodOutputString += "\n"
 foodFormatted = io.StringIO(foodOutputString)      
+print (foodOutputString)
 ######## Calories
-calOutputString = "NName,Nutritional Data\n"
+calOutputString = "Name,Nutritional Data\n"
 calOutputString += ("\n".join("{},{}".format(k, v) for k, v in calProdDict.items()))
-calOutputString = calOutputString.replace(', ',' ')[1:-1].replace("'","").replace("'","").replace("[","").replace("]","").replace("(","").replace(")","")
+calOutputString = calOutputString.replace(', ',' ').replace("'","").replace("'","").replace("[","").replace("]","").replace("(","").replace(")","")
 calFormatted = io.StringIO(calOutputString)
 
 ################ Data into DataFrame
