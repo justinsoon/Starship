@@ -176,10 +176,10 @@ globalMerge = globalDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'
 globalMerge.drop(globalMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Beverages
 bevMerge = bevDF.merge(globalMerge, on='Name', how='right', suffixes=('', '_y'))
-#bevMerge['Barcode'].str.cat(bevMerge.Barcode_y)
 bevMerge.drop(bevMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Food
 foodMerge = foodDF.merge(bevMerge, on='Name', how='right', suffixes=('', '_y'))
+foodMerge = foodMerge.replace(np.nan, '')
 foodMerge["Barcode"] = [''.join(i) for i in zip(foodMerge["Barcode"].map(str),foodMerge["Barcode_y"].map(str))]
 foodMerge.drop(foodMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Calories
