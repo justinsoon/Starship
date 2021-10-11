@@ -1,5 +1,5 @@
 ### Starbucks Adder 
-Files needed:
+Files needed/Input:
 - BevSKU.csv
 -- Beverage SKU Getter
 - FoodSKU.csv
@@ -10,6 +10,9 @@ Files needed:
 -- Calorie Info Getter
 - Final.csv
 -- Exisiting CSV where needed information is added
+
+File Output:
+- Completed.csv
 
 Known issues:
 Two global ID under one product
