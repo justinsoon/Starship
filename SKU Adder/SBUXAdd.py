@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import io
+import time
+start_time = time.time()
 ################ Class Objects
 class GlobalProduct:
     itemName = ''
@@ -26,6 +28,7 @@ class CalProduct:
     def __init__(self, productName, size, calories):
         self.productName = productName
         self.info =  (size, calories)
+
 
 ################ Variables
 bevProducts = [] 
@@ -64,7 +67,6 @@ calContent = calReader.read()
 
 ################ Storing Data
 ######## Global        
-output = []
 for globalLine in globalContent.split('\"\n\"'):
     globalColumns = globalLine.split(',')
     if len(globalColumns) > 4:
@@ -72,8 +74,6 @@ for globalLine in globalContent.split('\"\n\"'):
         globalID = globalColumns[0]
         globalID = globalID.replace('\"', '')
         globalProducts.append(GlobalProduct(globalName, globalID))
-    else:
-        print(globalColumns)
 for product in globalProducts:
     if product.itemName in (globalProdDict):
         globalProdDict[product.itemName].append(product.globalID)
@@ -82,14 +82,12 @@ for product in globalProducts:
 ######## Beverages
 for bevLine in bevContent.split("\n"):
     bevColumns = bevLine.split(",")
-    if len(bevColumns) > 4:
+    if len(bevColumns) > 2:
         bevName = bevColumns[1]
         for size in removeSizes:
             bevName = bevName.replace(size, '').strip()
         bevBarcode = bevColumns[0]
         bevProducts.append(BevProduct(bevName, bevBarcode))
-    else: 
-        print(bevColumns)
 for product in bevProducts:
     if product.itemName in (bevProdDict):
         bevProdDict[product.itemName].append(product.info)
@@ -102,8 +100,6 @@ for foodLine in foodContent.split("\n"):
         foodName = foodColumns[0]
         foodBarcode = foodColumns[1]
         foodProducts.append(FoodProduct(foodName, foodBarcode))
-    else: 
-        print(foodColumns)
 for product in foodProducts:
     if product.itemName in (foodProdDict):
         foodProdDict[product.itemName].append(product.info)
@@ -117,8 +113,6 @@ for calLine in calContent.split("\n"):
         calSize = calColumns[3]
         calories = calColumns[4]
         caloriesProducts.append(CalProduct(calitemName, calSize, calories))
-    else: 
-        print(calColumns)
 for product in caloriesProducts:
     if product.productName in (calProdDict):
         calProdDict[product.productName].append(product.info)
@@ -152,7 +146,6 @@ for k,v in foodProdDict.items():
     foodOutputString = foodOutputString[:-1]  
     foodOutputString += "\n"
 foodFormatted = io.StringIO(foodOutputString)      
-print (foodOutputString)
 ######## Calories
 calOutputString = "Name,Nutritional Data\n"
 calOutputString += ("\n".join("{},{}".format(k, v) for k, v in calProdDict.items()))
@@ -176,7 +169,7 @@ finalDF = pd.read_csv('final.csv', encoding='UTF-8')
 globalMerge = globalDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
 globalMerge.drop(globalMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Beverages
-bevMerge = bevDF.merge(globalMerge, on='Name', how='right', suffixes=('', '_y'))
+bevMerge = bevDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
 bevMerge.drop(bevMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Food
 foodMerge = foodDF.merge(bevMerge, on='Name', how='right', suffixes=('', '_y'))
@@ -194,3 +187,4 @@ calMerge.insert(24, 'Nutritional Data', reorderCalorie)
 calMerge.set_index('Global ID', inplace=True)
 ######## Create Completed CSV
 calMerge.to_csv('Completed.csv')
+print("--- Finished in %s seconds ---" % (time.time() - start_time))
