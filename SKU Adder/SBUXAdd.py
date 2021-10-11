@@ -169,7 +169,7 @@ finalDF = pd.read_csv('final.csv', encoding='UTF-8')
 globalMerge = globalDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
 globalMerge.drop(globalMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Beverages
-bevMerge = bevDF.merge(finalDF, on='Name', how='right', suffixes=('', '_y'))
+bevMerge = bevDF.merge(globalMerge, on='Name', how='right', suffixes=('', '_y'))
 bevMerge.drop(bevMerge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
 ######## Food
 foodMerge = foodDF.merge(bevMerge, on='Name', how='right', suffixes=('', '_y'))
