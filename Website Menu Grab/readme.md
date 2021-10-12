@@ -9,5 +9,5 @@
       - ![](https://i.imgur.com/jLfRpf4.png)
       - Gather food names and format
       - Sunday is 0 && Saturday is 6
-        - Print the formatted list
-        - paste `console.log(textOut)`
+    - Print the formatted list
+      - paste `console.log(textOut)`
