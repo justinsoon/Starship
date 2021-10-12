@@ -11,3 +11,4 @@
       - Sunday is 0 && Saturday is 6
     - Print the formatted list
       - paste `console.log(textOut)`
+    - Copy and Paste console print into sheet 
