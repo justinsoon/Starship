@@ -7,13 +7,7 @@
 - Gather food names and format
 - Sunday is 0 
 - Saturday is 6
-![](https://i.imgur.com/XWONYgb.png)
-- `
-var textOut = ""
-for (let i = 0; i < dates[day].getElementsByClassName("col-xs-9").length; i ++){
-    var foods = dates[day].getElementsByClassName("col-xs-9")[i].innerText.trim()
-    textOut += foods + '\n'
-} `
-
+- 
+- ![](https://i.imgur.com/XWONYgb.png)
 - Print the formatted list
 `console.log(textOut)`
