@@ -3,7 +3,10 @@
 
 ## Instructions
 - Ctrl + Shift + I
-- Paste Code into Console
+  - Click  Console Tab
+    - Paste var dates line
+      - Paste code from image and can edit the date number
+        -  paste `console.log(textOut)`
 - Define date variable
 `var dates = document.body.getElementsByClassName("bite-day-menu")`
 - Gather food names and format
