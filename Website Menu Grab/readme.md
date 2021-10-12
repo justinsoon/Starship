@@ -5,9 +5,9 @@
 - Ctrl + Shift + I
   - Click  Console Tab
     - Paste `var dates = document.body.getElementsByClassName("bite-day-menu")`
-      - Gather food names and format
-      - Sunday is 0 && Saturday is 6
       - Paste code 
       - ![](https://i.imgur.com/jLfRpf4.png)
+      - Gather food names and format
+      - Sunday is 0 && Saturday is 6
         - Print the formatted list
         - paste `console.log(textOut)`
