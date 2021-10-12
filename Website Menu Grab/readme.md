@@ -6,7 +6,7 @@
 `var dates = document.body.getElementsByClassName("bite-day-menu")`
 - Gather food names and format
 - Sunday is 0 
-    -  6 is Saturday
+- Saturday is 6
 ` day = 0 `
 - `
 var textOut = ""
