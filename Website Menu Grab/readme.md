@@ -7,7 +7,6 @@
 - Gather food names and format
 - Sunday is 0 
 - Saturday is 6
-- 
 - ![](https://i.imgur.com/XWONYgb.png)
 - Print the formatted list
 `console.log(textOut)`
