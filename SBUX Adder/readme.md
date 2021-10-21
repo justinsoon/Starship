@@ -4,6 +4,8 @@ Files needed/Input:
 -- Beverage SKU Getter
 - FoodSKU.csv
 -- Food SKU Getter
+- ModSKU.csv
+-- Modifier Item Getter
 - Master.csv
 -- Global ID Getter
 - Calories.csv
