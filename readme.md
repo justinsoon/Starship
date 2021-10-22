@@ -9,3 +9,8 @@
   - won't match copyright/trademark symbols/accented e's
     - 50/50 chance of some items getting added data
   - products have "/REJECTED, /ACCEPT" are unaccounted for
+- teavana in names
+- espresso (Quad) 
+  - in the service assignments they are named this way. 
+  - in the BevSKU they are named Quad Espresso 
+  - names dont match so they dont add
