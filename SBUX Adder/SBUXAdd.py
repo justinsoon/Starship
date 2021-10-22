@@ -43,13 +43,6 @@ def normMerge(firstDF, lastDF):
     merge = firstDF.merge(lastDF, on='Name', how='right', suffixes=('', '_y'))
     merge.drop(merge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
     return merge
-######## Merge replaces old data so, this combines
-def barcodeDupeMerge(firstDF, lastDF):
-    merge = firstDF.merge(lastDF, on='Name', how='right', suffixes=('', '_y'))
-    merge = merge.replace(np.nan, '')
-    merge["Barcode"] = [''.join(i) for i in zip(merge["Barcode"].map(str),merge["Barcode_y"].map(str))]
-    merge.drop(merge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
-    return merge
 
 ################ Variables
 bevProducts = []
