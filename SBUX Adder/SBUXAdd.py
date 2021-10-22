@@ -167,3 +167,6 @@ lastMerge.set_index('Global ID', inplace=True)
 ########################### Create Completed CSV ###########################
 lastMerge.to_csv('finalAdded.csv')
 print("--- Finished in %s seconds ---" % (time.time() - start_time))
+
+with io.open("Output Debug/output.txt", "w", encoding="utf-8") as output:
+    output.write(barcodeDF.to_string())
