@@ -60,17 +60,17 @@ globalProducts = []
 globalProdDict = {}
 caloriesProducts = []
 calProdDict = {}
+removeSizes = ["Kids", "Short", "Tall", "Grande", "Venti", "Trenta"]
 removeType = ['Add', 'Extra', 'Light', 'Substitute','Sub', 'No ', ' add', ' extra', ' light', ' sub', ' regular', ' no', 
     ' Modifier', ' Single', ' Double', ' Triple', 'Quad', 'Solo ', 'Doppio ', 'Triple ', ' modifier', ' modifier extra',
     ' modifier light', ' modifier no', ' modifier regular', ' modifier sub', 'Extra ', 'Light ', 'Add ']
-removeSizes = ["Kids", "Short", "Tall", "Grande", "Venti", "Trenta"]
 
 #################################### Reading CSVs ####################################
-globalContent = readCSV('Master.CSV', 1)    # Global ID - skip first row
-bevContent = readCSV('BevSKU.CSV', 6)       # Beverages SKU - skip first six row
-modContent = readCSV('ModSKU.CSV', 6)       # Modifier SKU - skip first six row
-foodContent = readCSV('FoodSKU.CSV', 2)     # Food SKU- skip first two row
-calContent = readCSV('Calories.CSV', 1)     # Calories Info - skip first row
+globalContent = readCSV('CSVData/Master.csv', 1)    # Global ID - skip first row
+bevContent = readCSV('CSVData/BevSKU.csv', 6)       # Beverages SKU - skip first six row
+modContent = readCSV('CSVData/ModSKU.csv', 6)       # Modifier SKU - skip first six row
+foodContent = readCSV('CSVData/FoodSKU.csv', 2)     # Food SKU- skip first two row
+calContent = readCSV('CSVData/Calories.csv', 1)     # Calories Info - skip first row
 
 ################ Storing Data
 ######## Global IDs       
@@ -97,8 +97,8 @@ for modLine in modContent.split("\n"):
     modColumns = modLine.split(",")
     if len(modColumns) > 2:
         modName = modColumns[1]
-        #for size in removeSizes:
-        #    modName = modName.replace(size, '').strip()
+        for size in removeSizes:
+            modName = modName.replace(size, '').strip()
         for type in removeType:
             modName = modName.replace(type, '').strip()
         modBarcode = modColumns[0]
@@ -165,5 +165,5 @@ lastMerge.insert(24, 'Nutritional Data', reorderCalorie)
 lastMerge.set_index('Global ID', inplace=True)
 
 ########################### Create Completed CSV ###########################
-lastMerge.to_csv('Completed.csv')
+lastMerge.to_csv('finalAdded.csv')
 print("--- Finished in %s seconds ---" % (time.time() - start_time))
