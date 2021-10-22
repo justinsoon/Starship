@@ -60,17 +60,17 @@ globalProducts = []
 globalProdDict = {}
 caloriesProducts = []
 calProdDict = {}
+removeSizes = ["Kids", "Short", "Tall", "Grande", "Venti", "Trenta"]
 removeType = ['Add', 'Extra', 'Light', 'Substitute','Sub', 'No ', ' add', ' extra', ' light', ' sub', ' regular', ' no', 
     ' Modifier', ' Single', ' Double', ' Triple', 'Quad', 'Solo ', 'Doppio ', 'Triple ', ' modifier', ' modifier extra',
     ' modifier light', ' modifier no', ' modifier regular', ' modifier sub', 'Extra ', 'Light ', 'Add ']
-removeSizes = ["Kids", "Short", "Tall", "Grande", "Venti", "Trenta"]
 
 #################################### Reading CSVs ####################################
-globalContent = readCSV('Master.CSV', 1)    # Global ID - skip first row
-bevContent = readCSV('BevSKU.CSV', 6)       # Beverages SKU - skip first six row
-modContent = readCSV('ModSKU.CSV', 6)       # Modifier SKU - skip first six row
-foodContent = readCSV('FoodSKU.CSV', 2)     # Food SKU- skip first two row
-calContent = readCSV('Calories.CSV', 1)     # Calories Info - skip first row
+globalContent = readCSV('CSVData/Master.csv', 1)    # Global ID - skip first row
+bevContent = readCSV('CSVData/BevSKU.csv', 6)       # Beverages SKU - skip first six row
+modContent = readCSV('CSVData/ModSKU.csv', 6)       # Modifier SKU - skip first six row
+foodContent = readCSV('CSVData/FoodSKU.csv', 2)     # Food SKU- skip first two row
+calContent = readCSV('CSVData/Calories.csv', 1)     # Calories Info - skip first row
 
 ################ Storing Data
 ######## Global IDs       
@@ -132,14 +132,14 @@ for k,v in globalProdDict.items():
     globalOutputString += "\n"
 globalFormatted = io.StringIO(globalOutputString)
 ######## Barcodes
-BarcodeOutputString = "Name,Barcode\n"
+barcodeOutputString = "Name,Barcode\n"
 for k,v in barcodeProdDict.items():
-    BarcodeOutputString += k + ","
+    barcodeOutputString += k + ","
     for sv in v:    
-        BarcodeOutputString += sv + "&"  
-    BarcodeOutputString = BarcodeOutputString[:-1]  
-    BarcodeOutputString += "\n"
-barcodeFormatted = io.StringIO(BarcodeOutputString)
+        barcodeOutputString += sv + "&"  
+    barcodeOutputString = barcodeOutputString[:-1]  
+    barcodeOutputString += "\n"
+barcodeFormatted = io.StringIO(barcodeOutputString)
 ######## Calories
 calOutputString = "Name,Nutritional Data\n"
 calOutputString += ("\n".join("{},{}".format(k, v) for k, v in calProdDict.items()))
@@ -165,5 +165,5 @@ lastMerge.insert(24, 'Nutritional Data', reorderCalorie)
 lastMerge.set_index('Global ID', inplace=True)
 
 ########################### Create Completed CSV ###########################
-lastMerge.to_csv('Completed.csv')
+lastMerge.to_csv('finalAdded.csv')
 print("--- Finished in %s seconds ---" % (time.time() - start_time))
