@@ -12,7 +12,7 @@ class GlobalProduct:
         self.info = globalID
 class BarcodeProduct:
     itemName = ''
-    info = ''
+    info = 0
     def __init__(self, itemName, barCode):
         self.itemName = itemName
         self.info =  (barCode)
@@ -82,6 +82,8 @@ for bevLine in bevContent.split("\n"):
         bevName = bevColumns[1]
         for size in removeSizes:
             bevName = bevName.replace(size, '').strip()
+        for type in removeType:
+            bevName = bevName.replace(type, '').strip()
         bevBarcode = bevColumns[0]
         bevProducts.append(BarcodeProduct(bevName, bevBarcode))
 dictStore(bevProducts, barcodeProdDict)
@@ -160,6 +162,3 @@ lastMerge.set_index('Global ID', inplace=True)
 ########################### Create Completed CSV ###########################
 lastMerge.to_csv('finalAdded.csv')
 print("--- Finished in %s seconds ---" % (time.time() - start_time))
-
-with io.open("Output Debug/output.txt", "w", encoding="utf-8") as output:
-    output.write(barcodeDF.to_string())
