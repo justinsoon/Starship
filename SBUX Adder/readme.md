@@ -25,7 +25,7 @@ Two global ID under one product
 Changelog:
 10/21/21
 - changed to completed csv name to finalAdded
--- this was done to know that the new file will be populated right under final
+  - this was done to know that the new file will be populated right under final
 - Stored all data CSV files in a folder 
--- CSVData is where all the data files should be
--- the relative path should only consist of final.csv, SBUXAdd.py, and CSVData (Folder)
+  - CSVData is where all the data files should be
+  - the relative path should only consist of final.csv, SBUXAdd.py, and CSVData (Folder)
