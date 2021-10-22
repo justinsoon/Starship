@@ -1,16 +1,17 @@
 <h1>Bugs: </h1>
--Standalone modifier type is removed (extra/light/sub)
+- Standalone modifier type is removed (extra/light/sub)
 when put in overall program it is not
-![modErrorOne](/images/1.jpg)
+![modErrorOne](https://imgur.com/F9m1DZo)
 
-![modErrorTwo](/images/2.jpg)
+![modErrorTwo](https://imgur.com/VEC413L)
 
-![modErrorThree](/images/3.jpg)
+![modErrorThree](https://imgur.com/4GeV2KX)
 
-![modErrorThree](/images/4.jpg)
+![modErrorThree](https://imgur.com/ZCyWAr4)
 
 - Starbucks Master CSV has duplicate with names being the same. Unsure which one is the correct global ID so grabs it all and concats.
-![global](/images/global.jpg)
+
+![global](https://imgur.com/aAqVcxQ)
 
 - unable to fix master.csv to UTF-8
 won't match copyright/trademark symbols/accented e's
