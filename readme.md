@@ -2,13 +2,13 @@
 - Standalone modifier type is removed (extra/light/sub)
   - when put in overall program it is not
 
-![modErrorOne](https://imgur.com/F9m1DZo)
+![modErrorOne](relative/path/to/img.jpg?raw=true "1")
 
-![modErrorTwo](https://imgur.com/VEC413L)
+![modErrorTwo](relative/path/to/img.jpg?raw=true "2")
 
-![modErrorThree](https://imgur.com/4GeV2KX)
+![modErrorThree](relative/path/to/img.jpg?raw=true "3")
 
-![modErrorThree](https://imgur.com/ZCyWAr4)
+![modErrorThree](relative/path/to/img.jpg?raw=true "4")
 
 - Starbucks Master CSV has duplicate with names being the same. Unsure which one is the correct global ID so grabs it all and concats.
 
