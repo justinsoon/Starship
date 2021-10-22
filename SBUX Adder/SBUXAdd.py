@@ -12,7 +12,7 @@ class GlobalProduct:
         self.info = globalID
 class BarcodeProduct:
     itemName = ''
-    info = ''
+    info = 0
     def __init__(self, itemName, barCode):
         self.itemName = itemName
         self.info =  (barCode)
@@ -41,13 +41,6 @@ def dictStore(productArray, productDict):
 ######## Merge two DFs
 def normMerge(firstDF, lastDF):
     merge = firstDF.merge(lastDF, on='Name', how='right', suffixes=('', '_y'))
-    merge.drop(merge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
-    return merge
-######## Merge replaces old data so, this combines
-def barcodeDupeMerge(firstDF, lastDF):
-    merge = firstDF.merge(lastDF, on='Name', how='right', suffixes=('', '_y'))
-    merge = merge.replace(np.nan, '')
-    merge["Barcode"] = [''.join(i) for i in zip(merge["Barcode"].map(str),merge["Barcode_y"].map(str))]
     merge.drop(merge.filter(regex='_y$').columns.tolist(),axis=1, inplace=True)
     return merge
 
@@ -89,6 +82,8 @@ for bevLine in bevContent.split("\n"):
         bevName = bevColumns[1]
         for size in removeSizes:
             bevName = bevName.replace(size, '').strip()
+        for type in removeType:
+            bevName = bevName.replace(type, '').strip()
         bevBarcode = bevColumns[0]
         bevProducts.append(BarcodeProduct(bevName, bevBarcode))
 dictStore(bevProducts, barcodeProdDict)
