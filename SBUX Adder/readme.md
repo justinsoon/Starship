@@ -1,26 +1,38 @@
 ### Starbucks Adder 
 Files needed/Input:
-- BevSKU.csv
--- Beverage SKU Getter
-- FoodSKU.csv
--- Food SKU Getter
-- ModSKU.csv
--- Modifier Item Getter
-- Master.csv
--- Global ID Getter
-- Calories.csv
--- Calorie Info Getter
+Main Folder:
 - Final.csv
--- Exisiting CSV where needed information is added
+  - Exisiting CSV where needed information is added
+- SBUXAdd.py
+- CSVData (folder)
+- .vscode (folder)
+  - if having an issue with File Not Found
+
+CSVData Folder:
+- BevSKU.csv
+  - Beverage SKU Getter
+- FoodSKU.csv
+  - Food SKU Getter
+- ModSKU.csv
+  - Modifier Item Getter
+- Master.csv
+  - Global ID Getter
+- Calories.csv
+  - Calorie Info Getter
 
 File Output:
 - finalAdded.csv
 
 Known issues:
-Two global ID under one product
+Two global ID under one product:
 - Starbucks Master CSV has duplicate with names being the same. Unsure which one is the correct global ID so grabs it all and concats.
 ![CSV View](https://i.imgur.com/Hp9og3A.png)
 ![Completed Excel View](https://i.imgur.com/IsAMhRG.png)
+- Standalone modifier type is removed (extra/light/sub)
+  - when put in overall program it is not
+- unable to fix master.csv to UTF-8
+  - won't match copyright/trademark symbols/accented e's
+  - products have "/REJECTED, /ACCEPT" are unaccounted for
 
 Changelog:
 10/21/21
