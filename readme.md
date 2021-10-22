@@ -1,6 +1,7 @@
 <h1>Bugs: </h1>
 - Standalone modifier type is removed (extra/light/sub)
-when put in overall program it is not
+  - when put in overall program it is not
+
 ![modErrorOne](https://imgur.com/F9m1DZo)
 
 ![modErrorTwo](https://imgur.com/VEC413L)
