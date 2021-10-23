@@ -22,6 +22,12 @@ class CalProduct:
     def __init__(self, itemName, size, calories):
         self.itemName = itemName
         self.info =  (size, calories)
+class PriceProduct:
+    itemName = ''
+    info = 0
+    def __init__(self, itemName, price):
+        self.itemName = itemName
+        self.info = price
         
 ################ Functions
 ######## Basic Reader
@@ -52,6 +58,8 @@ barcodeProdDict = {}
 globalProducts = []
 globalProdDict = {}
 caloriesProducts = []
+priceProducts = []
+priceProdDict = {}
 calProdDict = {}
 removeSizes = ["Kids", "Short", "Tall", "Grande", "Venti", "Trenta"]
 removeType = ['Add', 'Extra', 'Light', 'Substitute','Sub', 'No ', ' add', ' extra', ' light', ' sub', ' regular', ' no', 
@@ -64,6 +72,7 @@ bevContent = readCSV('CSVData/BevSKU.csv', 6)       # Beverages SKU - skip first
 modContent = readCSV('CSVData/ModSKU.csv', 6)       # Modifier SKU - skip first six row
 foodContent = readCSV('CSVData/FoodSKU.csv', 2)     # Food SKU- skip first two row
 calContent = readCSV('CSVData/Calories.csv', 1)     # Calories Info - skip first row
+priceContent = readCSV('CSVData/Master.csv', 1)     # Prices Info - skip first row
 
 ################ Storing Data
 ######## Global IDs       
@@ -75,6 +84,14 @@ for globalLine in globalContent.split('\"\n\"'):
         globalID = globalID.replace('\"', '')
         globalProducts.append(GlobalProduct(globalName, globalID))
 dictStore(globalProducts, globalProdDict)
+######## Prices
+for priceLine in priceContent.split('\"\n\"'):
+    priceColumns = priceLine.split(',')
+    if len(priceColumns) > 8:
+        priceName = priceColumns[2]
+        priceItem = priceColumns[8]
+        priceProducts.append(PriceProduct(priceName, priceItem))
+dictStore(priceProducts, priceProdDict)
 ######## Beverages 
 for bevLine in bevContent.split("\n"):
     bevColumns = bevLine.split(",")
@@ -126,6 +143,14 @@ for k,v in globalProdDict.items():
         globalOutputString += sv
     globalOutputString += "\n"
 globalFormatted = io.StringIO(globalOutputString)
+######## Prices
+priceOutputString = "Name,Price\n"
+for k,v in priceProdDict.items():
+    priceOutputString += k + ","
+    priceOutputString += v[0]
+    priceOutputString = priceOutputString.replace('\"', '')
+    priceOutputString += "\n"
+priceFormatted = io.StringIO(priceOutputString)
 ######## Barcodes
 barcodeOutputString = "Name,Barcode\n"
 for k,v in barcodeProdDict.items():
@@ -145,18 +170,26 @@ calFormatted = io.StringIO(calOutputString)
 globalDF = pd.read_csv(globalFormatted, sep=',')        # Global
 barcodeDF = pd.read_csv(barcodeFormatted, sep=',')      # Barcodes
 calDF = pd.read_csv(calFormatted, sep=',')              # Calories
+priceDF = pd.read_csv(priceFormatted, sep=',')          # Prices
 finalDF = pd.read_csv('final.csv', encoding='UTF-8')    # Final Spreadsheet
 
 ################ Combining Data Into A Single Sheet #########################
 globalMerge = normMerge(globalDF, finalDF)          # Add Global ID data
 barcodeMerge = normMerge(barcodeDF, globalMerge)    # Add Barcode data
-lastMerge = normMerge(calDF, barcodeMerge)          # Add Calories data
+calMerge = normMerge(calDF, barcodeMerge)           # Add Calories data
+lastMerge = normMerge(priceDF, calMerge)            # Add Price data    
 
 ########################## Fixing order of columns ##########################
 reorderBarcode = lastMerge.pop('Barcode')
 reorderCalorie = lastMerge.pop('Nutritional Data')
+reorderPrice = lastMerge.pop('Price')
 lastMerge.insert(0, 'Barcode', reorderBarcode)
 lastMerge.insert(24, 'Nutritional Data', reorderCalorie)
+lastMerge.insert(8, 'Price', reorderPrice)
+lastMerge['Price'] = lastMerge['Price'].fillna(0)
+lastMerge['Price with markup'] = lastMerge['Price']
+lastMerge['Price with commission'] = lastMerge['Price']
+lastMerge['Price base'] = lastMerge['Price']
 lastMerge.set_index('Global ID', inplace=True)
 
 ########################### Create Completed CSV ###########################
