@@ -150,7 +150,6 @@ for k,v in priceProdDict.items():
     priceOutputString += v[0]
     priceOutputString = priceOutputString.replace('\"', '')
     priceOutputString += "\n"
-print (priceOutputString)
 priceFormatted = io.StringIO(priceOutputString)
 ######## Barcodes
 barcodeOutputString = "Name,Barcode\n"
