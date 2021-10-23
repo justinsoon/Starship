@@ -149,6 +149,9 @@ for k,v in priceProdDict.items():
     priceOutputString += k + ","
     for sv in v:
         priceOutputString += sv
+        if len(v) > 1:
+            priceOutputString = priceOutputString[:-4]
+    priceOutputString = priceOutputString.replace('\"', '')
     priceOutputString += "\n"
 priceFormatted = io.StringIO(priceOutputString)
 ######## Barcodes
@@ -173,7 +176,6 @@ calDF = pd.read_csv(calFormatted, sep=',')              # Calories
 priceDF = pd.read_csv(priceFormatted, sep=',')          # Prices
 finalDF = pd.read_csv('final.csv', encoding='UTF-8')    # Final Spreadsheet
 
-
 ################ Combining Data Into A Single Sheet #########################
 globalMerge = normMerge(globalDF, finalDF)          # Add Global ID data
 barcodeMerge = normMerge(barcodeDF, globalMerge)    # Add Barcode data
@@ -187,6 +189,7 @@ reorderPrice = lastMerge.pop('Price')
 lastMerge.insert(0, 'Barcode', reorderBarcode)
 lastMerge.insert(24, 'Nutritional Data', reorderCalorie)
 lastMerge.insert(8, 'Price', reorderPrice)
+lastMerge['Price'] = lastMerge['Price'].fillna(0)
 lastMerge['Price with markup'] = lastMerge['Price']
 lastMerge['Price with commission'] = lastMerge['Price']
 lastMerge['Price base'] = lastMerge['Price']
