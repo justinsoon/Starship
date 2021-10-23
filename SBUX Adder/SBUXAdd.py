@@ -22,7 +22,6 @@ class CalProduct:
     def __init__(self, itemName, size, calories):
         self.itemName = itemName
         self.info =  (size, calories)
-
 class PriceProduct:
     itemName = ''
     info = 0
@@ -150,11 +149,7 @@ for k,v in priceProdDict.items():
     priceOutputString += k + ","
     for sv in v:
         priceOutputString += sv
-#        index = priceOutputString.index("\"");
-#        if (index >= 0):
-#            priceOutputString = priceOutputString[:-3]
     priceOutputString += "\n"
-print (priceOutputString)
 priceFormatted = io.StringIO(priceOutputString)
 ######## Barcodes
 barcodeOutputString = "Name,Barcode\n"
@@ -175,8 +170,9 @@ calFormatted = io.StringIO(calOutputString)
 globalDF = pd.read_csv(globalFormatted, sep=',')        # Global
 barcodeDF = pd.read_csv(barcodeFormatted, sep=',')      # Barcodes
 calDF = pd.read_csv(calFormatted, sep=',')              # Calories
-finalDF = pd.read_csv('final.csv', encoding='UTF-8')    # Final Spreadsheet
 priceDF = pd.read_csv(priceFormatted, sep=',')          # Prices
+finalDF = pd.read_csv('final.csv', encoding='UTF-8')    # Final Spreadsheet
+
 
 ################ Combining Data Into A Single Sheet #########################
 globalMerge = normMerge(globalDF, finalDF)          # Add Global ID data
@@ -191,6 +187,9 @@ reorderPrice = lastMerge.pop('Price')
 lastMerge.insert(0, 'Barcode', reorderBarcode)
 lastMerge.insert(24, 'Nutritional Data', reorderCalorie)
 lastMerge.insert(8, 'Price', reorderPrice)
+lastMerge['Price with markup'] = lastMerge['Price']
+lastMerge['Price with commission'] = lastMerge['Price']
+lastMerge['Price base'] = lastMerge['Price']
 lastMerge.set_index('Global ID', inplace=True)
 
 ########################### Create Completed CSV ###########################
