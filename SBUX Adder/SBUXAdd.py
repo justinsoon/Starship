@@ -147,12 +147,10 @@ globalFormatted = io.StringIO(globalOutputString)
 priceOutputString = "Name,Price\n"
 for k,v in priceProdDict.items():
     priceOutputString += k + ","
-    for sv in v:
-        priceOutputString += sv
-        if len(v) > 1:
-            priceOutputString = priceOutputString[:-4]
+    priceOutputString += v[0]
     priceOutputString = priceOutputString.replace('\"', '')
     priceOutputString += "\n"
+print (priceOutputString)
 priceFormatted = io.StringIO(priceOutputString)
 ######## Barcodes
 barcodeOutputString = "Name,Barcode\n"
