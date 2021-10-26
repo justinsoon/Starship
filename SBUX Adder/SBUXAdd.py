@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import io
 import time
+
 start_time = time.time()
 ################ Class Objects
 class GlobalProduct:
