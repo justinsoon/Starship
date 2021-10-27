@@ -34,13 +34,13 @@ def dictStore(productArray, productDict):
             productDict[product.itemName] = [product.info]
 ######## Merge two DFs
 def normMerge(firstDF, lastDF, data):
+    # Searching for string match
     print (data + ' - Searching matches...')
-    firstDF['tempName_2'] = firstDF['Name'].apply(lambda x: process.extractOne(x, lastDF['Name'].to_list(),score_cutoff=95)) #cutoff value is percentage of match
+    firstDF['tempName_2'] = firstDF['Name'].apply(lambda x: process.extractOne(x, lastDF['Name'].to_list(),score_cutoff=95)) #cutoff value is percentage of match needed
     tempName_list = firstDF['tempName_2'].to_list()
     tempName_list = [_[0] if _ != None else None for _ in tempName_list]
     firstDF['tempName_2'] = tempName_list
-    print (tempName_list)
-
+    # Merging data
     firstDF = firstDF.merge(lastDF, left_on = 'tempName_2', right_on = 'Name', how='left', suffixes=('','_2'))
     firstDF[data] = firstDF[data+ '_2']
     firstDF.drop(firstDF.filter(regex='_2$').columns.tolist(),axis=1, inplace=True)
