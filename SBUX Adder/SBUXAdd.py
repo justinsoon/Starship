@@ -137,7 +137,7 @@ finalDF = pd.read_csv('final.csv', encoding='UTF-8')    # Final Spreadsheet
 
 ################ Combining Data Into A Single Sheet #########################
 globalMerge = normMerge(finalDF, globalDF, 'Global ID')        # Add Global ID data
-priceMerge = normMerge(globalMerge, priceDF, 'Price')           # Add Global ID data
+priceMerge = normMerge(globalMerge, priceDF, 'Price')           # Add Price data
 barcodeMerge = normMerge(priceMerge, barcodeDF, 'Barcode')    # Add Barcode data
 lastMerge = normMerge(barcodeMerge, calDF, 'Nutritional Data')  # Add Calories data
 
