@@ -3,6 +3,7 @@ import numpy as np
 import json
 
 df = pd.read_csv('finalAdded.csv', usecols= ['Name', 'Price', 'Modifiers'])
+df = df.drop_duplicates()
 array = []
 name = df['Name'].to_numpy()
 
@@ -18,9 +19,10 @@ def modifierRow():
                 if value['title'] in name:
                     for x in name:
                         if  value['title'] == x:
-                            tempName = row['Name']
-                            priceRow = df.loc[df.Name == tempName, 'Price'].values[0]
-                            value['price'] = round(float(priceRow)) * 100
+                            itemPriceRow = df.loc[df.Name == x, 'Price'].values[0]
+                            value['price'] = round(float(itemPriceRow)) * 100  
+        #array.append(json.dumps(['Modifiers']))
+    df['MOD EDIT'] = array
     df.to_csv('test.csv')
 
 modifierRow()
