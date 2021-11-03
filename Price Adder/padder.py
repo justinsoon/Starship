@@ -1,6 +1,5 @@
-import pandas as pd
+import pandas as pd, numpy as np
 from thefuzz import process
-import io
 import time
 start_time = time.time()
 ######## Merge two DFs
@@ -13,7 +12,9 @@ def normMerge(firstDF, lastDF, data):
     firstDF['tempName_2'] = tempName_list
     # Merging data
     firstDF = firstDF.merge(lastDF, left_on = 'tempName_2', right_on = 'Name', how='left', suffixes=('','_2'))
-    firstDF[data] = firstDF[data+ '_2']
+    firstDF = firstDF.replace(np.nan, '')
+    firstDF["Price"] = [''.join(i) for i in zip(firstDF["Price"].map(str),firstDF["Price_2"].map(str))]
+    firstDF['Price'] = firstDF.Price.mask(firstDF.Price.str.len() > 4, firstDF.Price.str[4:])
     firstDF.drop(firstDF.filter(regex='_2$').columns.tolist(),axis=1, inplace=True)
     print (data + ' - Added!')    
     return firstDF
