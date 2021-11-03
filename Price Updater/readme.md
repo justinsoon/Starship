@@ -1,4 +1,4 @@
-#This is for price only update (items)
+#This is for updating/confirming the starship's menu prices with the gh menu (items)
 
 - usecase: 
   - Confirming price with github menu
