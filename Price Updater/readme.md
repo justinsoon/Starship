@@ -5,7 +5,7 @@
 
 Files needed:
 - current.csv
-- final.csv
+- final.csv (converted grub hub menu)
 
 Output:
 - finalAdded.csv
