@@ -26,6 +26,7 @@ File Output:
 Known issues:
 Two global ID under one product:
 - Starbucks Master CSV has duplicate with names being the same. Unsure which one is the correct global ID so grabs it all and concats.
+- FIXED WITH CLEANED MASTER
 ![CSV View](https://i.imgur.com/Hp9og3A.png)
 ![Completed Excel View](https://i.imgur.com/IsAMhRG.png)
 - unable to fix master.csv to UTF-8
