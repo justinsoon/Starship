@@ -22,23 +22,27 @@ options.add_argument('--log-level=3')
 
 driver = webdriver.Chrome(executable_path='chromedriver', chrome_options=options)
 driver.set_window_size(1920, 1080)
-webPage = input("Enter the merchant's all items link: ")
-driver.get(webPage)
 
-# find total pages
-totalPages = len(driver.find_element_by_class_name("pagination").find_elements_by_tag_name("li"))
+webPage = None
+while webPage != 'Q':
+    webPage = input("Enter the merchant's all items link: ")
+    if webPage == 'Q' or webPage == 'q':
+        driver.close()
+        quit()
+    driver.get(webPage)
+    # find total pages
+    totalPages = len(driver.find_element_by_class_name("pagination").find_elements_by_tag_name("li"))
 
-# go through pages
-if totalPages > 1:
-    for i in range(totalPages):
-        nextPageNum = str(i+2)
+    # go through pages
+    if totalPages > 1:
+        for i in range(totalPages):
+            nextPageNum = str(i+2)
+            applyStations()
+            if i < totalPages-1:
+                next_page = driver.find_element_by_class_name("pagination").find_element_by_link_text(nextPageNum)
+                next_page.click()
+            time.sleep(0.8)
+    else:
         applyStations()
-        if i < totalPages-1:
-            next_page = driver.find_element_by_class_name("pagination").find_element_by_link_text(nextPageNum)
-            next_page.click()
-        time.sleep(0.8)
-else:
-    applyStations()
-print("--- Finished in %s seconds ---" % (time.time() - start_time))
-time.sleep(5)
-
+    webPage = ''
+    print ('Enter Q to quit or another link')
