@@ -10,7 +10,5 @@
 - download the correct webdriver for OS 
   - https://chromedriver.chromium.org/downloads
 - open terminal / cmd prompt in folder
-  -  windows
-    --  py stations.py
-  -  mac
-    -- python stations.py
+  -  windows: py stations.py
+  -  mac: python stations.py
