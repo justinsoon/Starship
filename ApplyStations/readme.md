@@ -11,6 +11,6 @@
   - https://chromedriver.chromium.org/downloads
 - open terminal / cmd prompt in folder
   -  windows
-    -  py stations.py
+    --  py stations.py
   -  mac
-    - python stations.py
+    -- python stations.py
