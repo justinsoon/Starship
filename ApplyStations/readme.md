@@ -17,6 +17,7 @@
 # Files needed
 - download the correct webdriver for OS 
   - https://chromedriver.chromium.org/downloads
+- pip install selenium
 - open terminal / cmd prompt in folder
   -  windows: py stations.py
   -  mac: python stations.py
