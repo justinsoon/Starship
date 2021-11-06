@@ -10,7 +10,7 @@
 
 # How to use
 - get the all items link
-  - ![image](https://raw.githubusercontent.com/justinsoon/Starship/main/images/applystations.jpg?token=AEHZQVAF2P2YTSS5UHYDPNLBQ2ZQA)
+  - ![image](https://raw.githubusercontent.com/justinsoon/Starship/main/images/applystations.jpg?token=AEHZQVGJR2KRYMAVDODEOOLBQ4DZ6)
 - input into cmd 
 - accept certs 
 
