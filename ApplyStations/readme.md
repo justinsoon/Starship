@@ -5,7 +5,7 @@
 - selects all items on page
 - clicks action
 - open loading stations
-- selects first REAL station and assigns
+- selects first "REAL" station and assigns
 - if there are multiple pages it will go through all the pages and apply
 
 # How to use
