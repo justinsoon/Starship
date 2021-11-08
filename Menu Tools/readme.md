@@ -16,7 +16,7 @@
   - customize key used by change the keycode. get you val from https://keycode.info/
 
 ## Macros
-* When getting an item instead of clicking the modifier button make a macro [OLD METHOD - By Script press F4]
+* When getting an item instead of clicking the modifier button make a macro [OLD METHOD - By Script press Alt + 1]
   - Ctrl + L -> End -> '/modifiers' -> Enter
   - make sure to open the item page
 * When opening a merchant and checking all categories [OLD METHOD - By Script press ALT + W]
@@ -25,7 +25,7 @@
 * When opening a merchant and checking all items [OLD METHOD - By Script press ALT + Q]
   - Ctrl + L -> End -> '/items' -> Enter
   - make sure to be on the merchant setting page
-* Fastest way to save changes on main item page [OLD METHOD - By Script press F2]
+* Fastest way to save changes on main item page [OLD METHOD - By Script press ALT + 2]
   - press enter in the edit name box
   - Can make a bind on the mouse that presses enter so it all mouse movement and is faster
 * editing a lot of prices from mods
