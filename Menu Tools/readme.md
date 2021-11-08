@@ -13,6 +13,7 @@
   - press F2 to save on mod page / item page
   - press ALT + Q to go to item page from merchant setting page
   - press ALT + W to go to item categories page from merchant setting page
+  - press ALT + 1 to go to item modifier page from item setting page
   - customize key used by change the keycode. get you val from https://keycode.info/
 
 ## Macros
@@ -25,7 +26,7 @@
 * When opening a merchant and checking all items [OLD METHOD - By Script press ALT + Q]
   - Ctrl + L -> End -> '/items' -> Enter
   - make sure to be on the merchant setting page
-* Fastest way to save changes on main item page [OLD METHOD - By Script press ALT + 2]
+* Fastest way to save changes on main item page [OLD METHOD - By Script press F2]
   - press enter in the edit name box
   - Can make a bind on the mouse that presses enter so it all mouse movement and is faster
 * editing a lot of prices from mods
