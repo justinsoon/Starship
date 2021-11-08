@@ -10,21 +10,22 @@
 * how to use?
   - install tampermonkey extension
   - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savebutton.js?token=AEHZQVCXRMLLN4PSE6D5HZTBRCX6I
-  - press F2 to save on mod page
-  - press F4 to save on item page
+  - press F2 to save on mod page / item page
+  - press ALT + Q to go to item page from merchant setting page
+  - press ALT + W to go to item categories page from merchant setting page
   - customize key used by change the keycode. get you val from https://keycode.info/
 
 ## Macros
-* When getting an item instead of clicking the modifier button make a macro
+* When getting an item instead of clicking the modifier button make a macro [OLD METHOD - By Script press F4]
   - Ctrl + L -> End -> '/modifiers' -> Enter
   - make sure to open the item page
-* When opening a merchant and checking all categories
+* When opening a merchant and checking all categories [OLD METHOD - By Script press ALT + W]
   - Ctrl + L -> End -> '/item_categories' -> Enter
   - make sure to be on the merchant setting page
-* When opening a merchant and checking all items
+* When opening a merchant and checking all items [OLD METHOD - By Script press ALT + Q]
   - Ctrl + L -> End -> '/items' -> Enter
   - make sure to be on the merchant setting page
-* Fastest way to save changes on main item page [OLD METHOD - the script is updated to have this included]
+* Fastest way to save changes on main item page [OLD METHOD - By Script press F2]
   - press enter in the edit name box
   - Can make a bind on the mouse that presses enter so it all mouse movement and is faster
 * editing a lot of prices from mods
