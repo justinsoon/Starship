@@ -1,7 +1,7 @@
 # Useful tools and tips to efficiently edit the menu
 
 ## Modifier Page Save Button Shortcut (savemod.js)
-### keybind to press save changes on a modifier page
+### keybind to press save changes on a modifier page or an item's page
 - long list of sbux mods
   - or too lazy to click it
 
