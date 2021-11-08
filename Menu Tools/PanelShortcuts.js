@@ -2,7 +2,7 @@
 // @name         Starship Panel Shortcuts
 // @namespace    Panel Shortcuts
 // @version      0.3
-// @description  Shortcut for the modifier or item page press Alt + 2, Alt + 1 to access item modifiers from an item's page, ALT + Q = Items, ALT + W = Item Categories
+// @description  Shortcut for the modifier or item page press F2, Alt + 1 to access item modifiers from an item's page, ALT + Q = Items, ALT + W = Item Categories
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
