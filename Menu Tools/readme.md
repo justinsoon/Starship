@@ -4,8 +4,8 @@
 ### Keybinds
 - press **F2** to save on mod page / item page
 - press **TAB** to go to item modifier page from item setting page
-- press **SHIFT + Q** to go to item page from merchant setting page
-- press **SHIFT + W** to go to item categories page from merchant setting page
+- press **LEFT ALT + Q** to go to item page from merchant setting page
+- press **LEFT ALT + W** to go to item categories page from merchant setting page
 ### Q&A
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
@@ -17,10 +17,10 @@
 * When getting an item instead of clicking the modifier button make a macro [OLD METHOD - By Script press **TAB**]
   - Ctrl + L -> End -> '/modifiers' -> Enter
   - make sure to open the item page
-* When opening a merchant and checking all categories [OLD METHOD - By Script press **SHIFT + W**]
+* When opening a merchant and checking all categories [OLD METHOD - By Script press **LEFT ALT + W**]
   - Ctrl + L -> End -> '/item_categories' -> Enter
   - make sure to be on the merchant setting page
-* When opening a merchant and checking all items [OLD METHOD - By Script press **SHIFT + Q**]
+* When opening a merchant and checking all items [OLD METHOD - By Script press **LEFT ALT + Q**]
   - Ctrl + L -> End -> '/items' -> Enter
   - make sure to be on the merchant setting page
 * Fastest way to save changes on main item page [OLD METHOD - By Script press **F2**]
