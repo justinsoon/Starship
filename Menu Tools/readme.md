@@ -1,19 +1,16 @@
 # Useful tools and tips to efficiently edit the menu
 
-## Modifier Page Save Button Shortcut (savemod.js)
-### keybind to press save changes on a modifier page or an item's page
-- long list of sbux mods
-  - or too lazy to click it
-
+## Panel Shortcuts (PanelShortcuts.js)
+### Keybinds
+- press F2 to save on mod page / item page
+- press ALT + Q to go to item page from merchant setting page
+- press ALT + W to go to item categories page from merchant setting page
+- press ALT + 1 to go to item modifier page from item setting page
 ### Q&A
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
   - install tampermonkey extension
   - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savebutton.js?token=AEHZQVCXRMLLN4PSE6D5HZTBRCX6I
-  - press F2 to save on mod page / item page
-  - press ALT + Q to go to item page from merchant setting page
-  - press ALT + W to go to item categories page from merchant setting page
-  - press ALT + 1 to go to item modifier page from item setting page
   - customize key used by change the keycode. get you val from https://keycode.info/
 
 ## Macros
