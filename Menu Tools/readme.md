@@ -9,7 +9,7 @@
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
   - install tampermonkey extension
-  - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savemod.js?token=AEHZQVCORT7377VHMAGGNVTBRCUYS
+  - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savebutton.js?token=AEHZQVCXRMLLN4PSE6D5HZTBRCX6I
   - press F2 to save on mod page
   - press F4 to save on item page
   - customize key used by change the keycode. get you val from https://keycode.info/
