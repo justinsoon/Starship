@@ -31,3 +31,9 @@
   - Mouse 1 -> Ctrl + A -> '0'
   - change the number to what is needed
   - **warning** for this macro - you need to have really good aim for this method
+
+## Multiple item with the same mod names
+* Using this extension as a text replacement
+  - https://www.getmagical.com/share/install?referralCode=3dvPjgBKd7FJvAd9LpVecn5AKMX&t=1636347210998&utm_campaign=share 
+  - Type in ur shortcut phrase and it autocomplete the name
+  - Phrase: s1 -> 12oz Hot, s2 - 16oz Hot, s3 -> 16oz Cold
