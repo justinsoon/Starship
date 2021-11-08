@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Starship Save Button
 // @namespace    Save Shortcut
-// @version      0.1
+// @version      0.2
 // @description  Save button shortcut for the modifier page press F2 and F4 for items page
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
