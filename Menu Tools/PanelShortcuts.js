@@ -9,33 +9,14 @@
 // @grant        none
 // ==/UserScript==
 
-    var ctrlDown = false,
-        altKey = 18,
-        cmdKey = 91,
-        qKey = 81,
-        wKey = 87,
-        eKey = 69,
-        oneKey = 49,
-        twoKey = 50;
-
-
-if (/\bmodifiers\b/.test (location.pathname) ) {
-    window.addEventListener('keyup', function (e) {
-        if (e.keyCode == altKey || e.keyCode == twoKey) {
-            var button = document.evaluate("//*[@id='modifiers']/div/div[2]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-            button.click();
-            alert("Saved!");
-        }
-    }, false);
-} else {
-    window.addEventListener('keyup', function (e) {
-        if (e.keyCode == altKey || e.keyCode == twoKey) {
-            var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/div[19]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-            button.click();
-            alert("Saved!");
-        }
-    }, false);
-}
+var ctrlDown = false,
+    altKey = 18,
+    cmdKey = 91,
+    qKey = 81,
+    wKey = 87,
+    eKey = 69,
+    oneKey = 49,
+    f2Key = 113;
 
 window.addEventListener('keyup', function (e) {
   if (e.keyCode == altKey || e.keyCode == oneKey) {
@@ -57,3 +38,21 @@ window.addEventListener('keyup', function (e) {
      button.click();
   }
 }, false)
+
+if (/\bmodifiers\b/.test (location.pathname) ) {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == f2Key) {
+            var button = document.evaluate("//*[@id='modifiers']/div/div[2]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+            alert("Saved!");
+        }
+    }, false);
+} else {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == f2Key) {
+            var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/div[19]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+            alert("Saved!");
+        }
+    }, false);
+}
