@@ -10,7 +10,8 @@
 * how to use?
   - install tampermonkey extension
   - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savemod.js?token=AEHZQVCORT7377VHMAGGNVTBRCUYS
-  - press F2 to save
+  - press F2 to save on mod page
+  - press F4 to save on item page
   - customize key used by change the keycode. get you val from https://keycode.info/
 
 ## Macros
