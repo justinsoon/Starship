@@ -37,3 +37,4 @@
   - https://www.getmagical.com/share/install?referralCode=3dvPjgBKd7FJvAd9LpVecn5AKMX&t=1636347210998&utm_campaign=share 
   - Type in ur shortcut phrase and it'll autocomplete the name
   - Phrase: s1 -> 12oz Hot | s2 -> 16oz Hot | s3 -> 16oz Cold
+  - ![iamge](https://github.com/justinsoon/Starship/blob/main/images/textreplacement.jpg)
