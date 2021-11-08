@@ -11,7 +11,7 @@
 * how to use?
   - install tampermonkey extension https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
   - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savebutton.js?token=AEHZQVCXRMLLN4PSE6D5HZTBRCX6I
-  - customize key used by change the keycode. get you val from https://keycode.info/
+  - customize key used by change the keycode. get val from https://keycode.info/
 
 ## Macros
 * When getting an item instead of clicking the modifier button make a macro [OLD METHOD - By Script press Alt + 1]
