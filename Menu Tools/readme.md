@@ -24,7 +24,7 @@
 * When opening a merchant and checking all items
   - Ctrl + L -> End -> '/items' -> Enter
   - make sure to be on the merchant setting page
-* Fastest way to save changes on main item page [OLD METHOD script is included]
+* Fastest way to save changes on main item page [OLD METHOD - the script is updated to have this included]
   - press enter in the edit name box
   - Can make a bind on the mouse that presses enter so it all mouse movement and is faster
 * editing a lot of prices from mods
