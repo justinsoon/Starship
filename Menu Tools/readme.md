@@ -9,7 +9,7 @@
 ### Q&A
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
-  - install tampermonkey extension
+  - install tampermonkey extension https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
   - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savebutton.js?token=AEHZQVCXRMLLN4PSE6D5HZTBRCX6I
   - customize key used by change the keycode. get you val from https://keycode.info/
 
