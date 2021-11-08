@@ -13,6 +13,7 @@ window.addEventListener('keyup', function (e) {
   if (e.keyCode === 113) {
      var button = document.evaluate("//*[@id='modifiers']/div/div[2]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
      button.click();
+     alert("Saved!");
   }
 }, false);
 
@@ -20,5 +21,6 @@ window.addEventListener('keyup', function (e) {
   if (e.keyCode === 115) {
      var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/div[19]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
      button.click();
+     alert("Saved!");
   }
 }, false);
