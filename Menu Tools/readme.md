@@ -14,7 +14,7 @@
   - customize key used by change the keycode. get you val from https://keycode.info/
 
 ## Macros
-* When getting an item instead of clicking the button make a macro
+* When getting an item instead of clicking the modifier button make a macro
   - Ctrl + L -> End -> '/modifiers' -> Enter
 * When opening a merchant and checking all categories
   - Ctrl + L -> End -> '/item_categories' -> Enter
