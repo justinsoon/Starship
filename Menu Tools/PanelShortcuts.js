@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Starship Panel Shortcuts
 // @namespace    Panel Shortcuts
-// @version      0.3
-// @description  Shortcut for the modifier or item page press F2, Tab to access item modifiers from an item's page, Shift + Q = Items, Shift + W = Item Categories
+// @version      0.5
+// @description  Shortcut for the modifier or item page press F2, Tab to access item modifiers from an item's page, Alt + Q = Items, Alt + W = Item Categories
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 var ctrlDown = false,
-    shiftKey = 16,
+    altKey = 16,
     cmdKey = 91,
     qKey = 81,
     wKey = 87,
@@ -24,20 +24,22 @@ window.addEventListener('keyup', function (e) {
   }
 }, false)
 
-window.addEventListener('keyup', function (e) {
-  if (e.keyCode == shiftKey || e.keyCode == qKey) {
-     var button = document.evaluate("/html/body/div[1]/main/div/ul/li[2]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-     button.click();
-  }
-}, false)
-
-window.addEventListener('keyup', function (e) {
-  if (e.keyCode == shiftKey || e.keyCode == wKey) {
-     var button = document.evaluate("/html/body/div[1]/main/div/ul/li[3]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-     button.click();
-  }
-}, false)
-
+if (/\bitem_categories\b/.test (location.pathname) ) {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == altKey || e.keyCode == qKey) {
+            var button = document.evaluate("/html/body/div[1]/main/div/ul/li[2]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
+}
+if (/\bitems\b/.test (location.pathname) ) {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == altKey || e.keyCode == wKey) {
+            var button = document.evaluate("/html/body/div[1]/main/div/ul/li[3]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
+}
 if (/\bmodifiers\b/.test (location.pathname) ) {
     window.addEventListener('keyup', function (e) {
         if (e.keyCode == f2Key) {
