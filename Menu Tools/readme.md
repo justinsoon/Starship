@@ -30,4 +30,4 @@
 * editing a lot of prices from mods
   - Mouse 1 -> Ctrl + A -> '0'
   - change the number to what is needed
-  - you need to have really good aim for this method
+  - *warning* for this macro - you need to have really good aim for this method
