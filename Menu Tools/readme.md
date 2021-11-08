@@ -16,10 +16,13 @@
 ## Macros
 * When getting an item instead of clicking the modifier button make a macro
   - Ctrl + L -> End -> '/modifiers' -> Enter
+  - make sure to open the item page
 * When opening a merchant and checking all categories
   - Ctrl + L -> End -> '/item_categories' -> Enter
+  - make sure to be on the merchant setting page
 * When opening a merchant and checking all items
   - Ctrl + L -> End -> '/items' -> Enter
+  - make sure to be on the merchant setting page
 * Fastest way to save changes on main item page
   - press enter in the edit name box
   - Can make a bind on the mouse that presses enter so it all mouse movement and is faster
