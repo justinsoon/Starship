@@ -2,7 +2,7 @@
 // @name         Starship Panel Shortcuts
 // @namespace    Panel Shortcuts
 // @version      0.3
-// @description  Shortcut for the modifier or item page press F2, Alt + 1 to access item modifiers from an item's page, ALT + Q = Items, ALT + W = Item Categories
+// @description  Shortcut for the modifier or item page press F2, Tab to access item modifiers from an item's page, Shift + Q = Items, Shift + W = Item Categories
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
@@ -10,30 +10,29 @@
 // ==/UserScript==
 
 var ctrlDown = false,
-    altKey = 18,
+    shiftKey = 16,
     cmdKey = 91,
     qKey = 81,
     wKey = 87,
-    eKey = 69,
-    oneKey = 49,
+    tabKey = 9,
     f2Key = 113;
 
 window.addEventListener('keyup', function (e) {
-  if (e.keyCode == altKey || e.keyCode == oneKey) {
+  if (e.keyCode == tabKey) {
      var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[3]/div/p/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
      button.click();
   }
 }, false)
 
 window.addEventListener('keyup', function (e) {
-  if (e.keyCode == altKey || e.keyCode == qKey) {
+  if (e.keyCode == shiftKey || e.keyCode == qKey) {
      var button = document.evaluate("/html/body/div[1]/main/div/ul/li[2]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
      button.click();
   }
 }, false)
 
 window.addEventListener('keyup', function (e) {
-  if (e.keyCode == altKey || e.keyCode == wKey) {
+  if (e.keyCode == shiftKey || e.keyCode == wKey) {
      var button = document.evaluate("/html/body/div[1]/main/div/ul/li[3]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
      button.click();
   }
