@@ -38,3 +38,7 @@
   - Type in ur shortcut phrase and it'll autocomplete the name
   - Phrase: s1 -> 12oz Hot | s2 -> 16oz Hot | s3 -> 16oz Cold
   - ![iamge](https://github.com/justinsoon/Starship/blob/main/images/textreplacement.jpg)
+## Saving stock images
+* Using this extension you'll always get the JPG
+  - The panel will only take jpg so instead of renaming them if you get an image from your search engine it will automatically save it as a jpg
+  - https://chrome.google.com/webstore/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd
