@@ -1,26 +1,58 @@
 // ==UserScript==
-// @name         Starship Save Button
-// @namespace    Save Shortcut
-// @version      0.2
-// @description  Save button shortcut for the modifier page press F2 and F4 for items page
+// @name         Starship Panel Shortcuts
+// @namespace    Panel Shortcuts
+// @version      0.3
+// @description  Shortcut for the modifier or item page press F2, F4 for item modifiers, ALT + Q = Items, ALT + W = Item Categories
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
 
-window.addEventListener('keyup', function (e) {
-  if (e.keyCode === 113) {
-     var button = document.evaluate("//*[@id='modifiers']/div/div[2]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-     button.click();
-     alert("Saved!");
-  }
-}, false);
+    var ctrlDown = false,
+        altKey = 18,
+        cmdKey = 91,
+        qKey = 81,
+        wKey = 87,
+        f2Key = 113,
+        f4Key = 115;
+
+
+if (/\bmodifiers\b/.test (location.pathname) ) {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == f2Key) {
+            var button = document.evaluate("//*[@id='modifiers']/div/div[2]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+            alert("Saved!");
+        }
+    }, false);
+} else {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == f2Key) {
+            var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/div[19]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+            alert("Saved!");
+        }
+    }, false);
+}
 
 window.addEventListener('keyup', function (e) {
-  if (e.keyCode === 115) {
-     var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/div[19]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+  if (e.keyCode == f4Key) {
+     var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[3]/div/p/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
      button.click();
-     alert("Saved!");
   }
-}, false);
+}, false)
+
+window.addEventListener('keyup', function (e) {
+  if (e.keyCode == altKey || e.keyCode == qKey) {
+     var button = document.evaluate("/html/body/div[1]/main/div/ul/li[2]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+     button.click();
+  }
+}, false)
+
+window.addEventListener('keyup', function (e) {
+  if (e.keyCode == altKey || e.keyCode == wKey) {
+     var button = document.evaluate("/html/body/div[1]/main/div/ul/li[3]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+     button.click();
+  }
+}, false)
