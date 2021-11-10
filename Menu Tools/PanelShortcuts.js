@@ -20,13 +20,6 @@ var ctrlDown = false,
     tabKey = 9,
     f2Key = 113;
 
-window.addEventListener('keyup', function (e) {
-  if (e.keyCode == tabKey) {
-     var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[3]/div/p/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-     button.click();
-  }
-}, false)
-
 window.addEventListener('keydown', function (e) {
     if (e.keyCode.altKey || e.keyCode == qKey) {
         var button = document.evaluate("/html/body/div[1]/main/div/ul/li[2]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -80,4 +73,20 @@ if (/\bmodifiers\b/.test (location.pathname) ) {
             alert("Saved!");
         }
     }, false);
+}
+
+if (/\bmodifiers\b/.test (location.pathname) ) {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == tabKey) {
+            var button = document.evaluate("/html/body/div[1]/nav/div/div/ol/li[4]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
+} else {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == tabKey) {
+            var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[3]/div/p/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
 }
