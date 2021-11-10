@@ -2,7 +2,7 @@
 // @name         Starship Panel Shortcuts
 // @namespace    Panel Shortcuts
 // @version      0.7
-// @description  Shortcut for the modifier or item page press F2, Tab to access item modifiers from an item's page, Alt + Q = Items, Alt + W = Item Categories, Alt + 1 = Action Button, Alt + 2 = Download, Alt + 3 = Upload, ALT + A = Available, Alt + D = Archived
+// @description  Documentation - https://github.com/justinsoon/Starship/blob/main/Menu%20Tools/readme.md
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
