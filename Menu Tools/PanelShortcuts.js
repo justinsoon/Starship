@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Starship Panel Shortcuts
 // @namespace    Panel Shortcuts
-// @version      0.5
+// @version      0.7
 // @description  Shortcut for the modifier or item page press F2, Tab to access item modifiers from an item's page, Alt + Q = Items, Alt + W = Item Categories, Alt + 1 = Action Button, Alt + 2 = Download, Alt + 3 = Upload, ALT + A = Available, Alt + D = Archived
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
@@ -10,7 +10,6 @@
 // ==/UserScript==
 
 (function() {
-
 var ctrlDown = false,
     altKey = 16,
     cmdKey = 91,
@@ -24,7 +23,6 @@ var ctrlDown = false,
     zKey = 90,
     tabKey = 9,
     f2Key = 113;
-
 function onKeydown(evt) {
     if (evt.altKey && evt.keyCode == qKey) {
         itemPage();
@@ -57,8 +55,6 @@ function onKeydown(evt) {
         save();
     }
 }
-
-
 function itemPage() {
         var button = document.evaluate("/html/body/div[1]/main/div/ul/li[2]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
         button.click();
@@ -67,7 +63,6 @@ function itemCat() {
         var button = document.evaluate("/html/body/div[1]/main/div/ul/li[3]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
         button.click();
     }
-
 function actionModal() {
     if (/\items\b/.test (location.pathname) ) {
         var button = document.evaluate("/html/body/div[1]/nav/div/div[2]/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -86,29 +81,24 @@ function upMenu() {
         button.click();
     }
 }
-
 function itemArch() {
     if (/\items\b/.test (location.pathname) ) {
         var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[4]/div/div[3]/label", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
         button.click();
     }
 }
-
 function itemAvail() {
     if (/\items\b/.test (location.pathname) ) {
         var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[4]/div/div[1]/label", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
         button.click();
     }
 }
-
 function itemSelCat() {
     if (/\items\b/.test (location.pathname) ) {
         var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[2]/div[2]/p/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
         button.click();
     }
 }
-
-
 function save() {
     if (/\bmodifiers\b/.test (location.pathname) ) {
         var button = document.evaluate("//*[@id='modifiers']/div/div[2]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -120,7 +110,6 @@ function save() {
         alert("Saved!");
     }
 }
-
 function itemMod() {
     if (/\bmodifiers\b/.test (location.pathname) ) {
         var button = document.evaluate("/html/body/div[1]/nav/div/div/ol/li[4]/a", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -130,6 +119,5 @@ function itemMod() {
         button2.click();
     }
 }
-
 document.addEventListener('keydown', onKeydown, true);
 })();
