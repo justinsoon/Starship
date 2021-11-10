@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Starship Panel Shortcuts
 // @namespace    Panel Shortcuts
-// @version      0.5
-// @description  Shortcut for the modifier or item page press F2, Tab to access item modifiers from an item's page, Alt + Q = Items, Alt + W = Item Categories, Alt + 1 = Action Button, Alt + 2 = Download, Alt + 3 = Upload
+// @version      0.6
+// @description  Shortcut for the modifier or item page press F2, Tab to access item modifiers from an item's page, Alt + Q = Items, Alt + W = Item Categories, Alt + 1 = Action Button, Alt + 2 = Download, Alt + 3 = Upload, ALT + A = Available, Alt + D = Archived
 // @author       Justin Soon
 // @match        https://panel.starship.xyz/marketplace/serviceassignments/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
@@ -17,6 +17,8 @@ var ctrlDown = false,
     oneKey = 49,
     twoKey = 50,
     threeKey = 51,
+    aKey = 65,
+    sKey = 83,
     tabKey = 9,
     f2Key = 113;
 
@@ -53,6 +55,22 @@ if (/\items\b/.test (location.pathname) ) {
     window.addEventListener('keydown', function (e) {
         if (e.keyCode.altKey || e.keyCode == threeKey) {
             var button = document.evaluate("/html/body/div[1]/main/div/div[1]/div/div[1]/div/label[1]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
+}
+if (/\items\b/.test (location.pathname) ) {
+    window.addEventListener('keydown', function (e) {
+        if (e.keyCode.altKey || e.keyCode == sKey) {
+            var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[4]/div/div[3]/label", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
+}
+if (/\items\b/.test (location.pathname) ) {
+    window.addEventListener('keydown', function (e) {
+        if (e.keyCode.altKey || e.keyCode == aKey) {
+            var button = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/fieldset[1]/div[4]/div/div[1]/label", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
             button.click();
         }
     }, false)
