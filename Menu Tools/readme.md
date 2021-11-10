@@ -3,7 +3,7 @@
 ## Panel Shortcuts (PanelShortcuts.js)
 ### Keybinds
 - press **F2** to save on mod page / item page
-- press **TAB** to go to item modifier page from item setting page
+- press **TAB** to go to item modifier page from item setting page or go back to item setting page from mod page
 - press **LEFT ALT + Q** to go to item page from merchant setting page
 - press **LEFT ALT + W** to go to item categories page from merchant setting page
 - press **LEFT ALT + ONE** to access action modal from items page 
