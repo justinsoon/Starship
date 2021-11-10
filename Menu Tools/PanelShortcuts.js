@@ -15,6 +15,8 @@ var ctrlDown = false,
     qKey = 81,
     wKey = 87,
     oneKey = 49,
+    twoKey = 50,
+    threeKey = 51,
     tabKey = 9,
     f2Key = 113;
 
@@ -42,6 +44,22 @@ if (/\items\b/.test (location.pathname) ) {
     window.addEventListener('keyup', function (e) {
         if (e.keyCode == altKey || e.keyCode == oneKey) {
             var button = document.evaluate("/html/body/div[1]/nav/div/div[2]/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
+}
+if (/\items\b/.test (location.pathname) ) {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == altKey || e.keyCode == twoKey) {
+            var button = document.evaluate("//*[@id='download-items-csv']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+            button.click();
+        }
+    }, false)
+}
+if (/\items\b/.test (location.pathname) ) {
+    window.addEventListener('keyup', function (e) {
+        if (e.keyCode == altKey || e.keyCode == threeKey) {
+            var button = document.evaluate("/html/body/div[1]/main/div/div[1]/div/div[1]/div/label[1]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
             button.click();
         }
     }, false)
