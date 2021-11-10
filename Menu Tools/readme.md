@@ -2,13 +2,17 @@
 
 ## Panel Shortcuts (PanelShortcuts.js)
 ### Keybinds
-- press **F2** to save on mod page / item page
-- press **TAB** to go to item modifier page from item setting page or go back to item setting page from mod page
-- press **LEFT ALT + Q** to go to item page from merchant setting page
-- press **LEFT ALT + W** to go to item categories page from merchant setting page
-- press **LEFT ALT + ONE** to access action modal from items page 
-- press **LEFT ALT + TWO** to click download button from items page
-- press **LEFT ALT + THREE** to click upload button from items page
+| Shortcuts | Actions | 
+| --------------- | --------------- |
+| F2 | to save on mod page / item page | 
+| TAB | to go to item modifier page from item setting page or go back to item setting page from mod page | 
+| LEFT ALT + Q | merchant page -> go to items tab | 
+| LEFT ALT + W | merchant page -> go to items categories tab | 
+| LEFT ALT + 1 | merchant item page -> open action modal | 
+| LEFT ALT + 2 | merchant item page -> download | 
+| LEFT ALT + 3 | merchant item page -> upload |
+| LEFT ALT + A | item page -> make item available | 
+| LEFT ALT + S | item page -> make item archived |
 ### Q&A
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
