@@ -13,6 +13,7 @@
 | LEFT ALT + 3 | merchant item page -> upload |
 | LEFT ALT + A | item page -> make item available | 
 | LEFT ALT + S | item page -> make item archived |
+| LEFT ALT + Z | item page -> open item categories |
 ### Q&A
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
