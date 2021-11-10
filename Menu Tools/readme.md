@@ -7,6 +7,8 @@
 - press **LEFT ALT + Q** to go to item page from merchant setting page
 - press **LEFT ALT + W** to go to item categories page from merchant setting page
 - press **LEFT ALT + ONE** to access action modal from items page 
+- press **LEFT ALT + TWO** to click download button from items page
+- press **LEFT ALT + THREE** to click upload button from items page
 ### Q&A
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
