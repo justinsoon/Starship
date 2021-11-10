@@ -6,6 +6,7 @@
 - press **TAB** to go to item modifier page from item setting page
 - press **LEFT ALT + Q** to go to item page from merchant setting page
 - press **LEFT ALT + W** to go to item categories page from merchant setting page
+- press **LEFT ALT + ONE** to access action modal from items page 
 ### Q&A
 * saves do apply just don't use back and forward button on browser to update, because it takes last cache data
 * how to use?
