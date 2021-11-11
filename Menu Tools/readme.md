@@ -19,26 +19,12 @@
 * how to use?
   - install tampermonkey extension https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
   - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savebutton.js?token=AEHZQVCXRMLLN4PSE6D5HZTBRCX6I
-  - customize key used by change the keycode. get val from https://keycode.info/
-
+  - customize key used by changing the keycode. Get your input val from https://keycode.info/
 ## Macros
-* When getting an item instead of clicking the modifier button make a macro [OLD METHOD - By Script press **TAB**]
-  - Ctrl + L -> End -> '/modifiers' -> Enter
-  - make sure to open the item page
-* When opening a merchant and checking all categories [OLD METHOD - By Script press **LEFT ALT + W**]
-  - Ctrl + L -> End -> '/item_categories' -> Enter
-  - make sure to be on the merchant setting page
-* When opening a merchant and checking all items [OLD METHOD - By Script press **LEFT ALT + Q**]
-  - Ctrl + L -> End -> '/items' -> Enter
-  - make sure to be on the merchant setting page
-* Fastest way to save changes on main item page [OLD METHOD - By Script press **F2**]
-  - press enter in the edit name box
-  - Can make a bind on the mouse that presses enter so it all mouse movement and is faster
 * editing a lot of prices from mods
   - Mouse 1 -> Ctrl + A -> '0'
   - change the number to what is needed
   - **warning** for this macro - you need to have really good aim for this method
-
 ## Multiple item with the same mod names
 * Using this extension as a text replacement
   - https://chrome.google.com/webstore/detail/magical-text-expander/iibninhmiggehlcdolcilmhacighjamp
