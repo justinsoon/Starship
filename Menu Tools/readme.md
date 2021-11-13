@@ -30,6 +30,7 @@
   * When finding a linked mod, to find the matching item
   * Can't paste in the drop down, but accepts keyboard input
   * Simulates raw input
+  * ![image](https://github.com/justinsoon/Starship/blob/main/images/pasteraw.jpg)
 * how to use?
   * open terminal to folder
   * type py pasteraw.py 
