@@ -20,14 +20,16 @@
   - install tampermonkey extension https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
   - install userscript from link https://raw.githubusercontent.com/justinsoon/Starship/main/Menu%20Tools/savebutton.js?token=AEHZQVCXRMLLN4PSE6D5HZTBRCX6I
   - customize key used by changing the keycode. Get your input val from https://keycode.info/
-## Macros
-* editing a lot of prices from mods
-  - Mouse 1 -> Ctrl + A -> '0'
-  - change the number to what is needed
-  - **warning** for this macro - you need to have really good aim for this method
- * Going through each item in a category and saving
-  - F2 -> Enter -> CTRL + W
-  - Do edits and run macro
+## Paste Raw (pasteraw.js)
+### Keybinds
+| Shortcuts | Actions | 
+| --------------- | --------------- |
+| F4 | typing clipboard contents | 
+### Q&A
+* Why?
+  * When finding a linked mod, to find the matching item
+  * Can't paste in the drop down, but accepts keyboard input
+  * Simulates raw input
 ## Multiple item with the same mod names
 * Using this extension as a text replacement
   - https://chrome.google.com/webstore/detail/magical-text-expander/iibninhmiggehlcdolcilmhacighjamp
