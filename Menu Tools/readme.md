@@ -30,6 +30,11 @@
   * When finding a linked mod, to find the matching item
   * Can't paste in the drop down, but accepts keyboard input
   * Simulates raw input
+* how to use?
+  * open terminal to folder
+  * type py pasteraw.py 
+  * press ***F4*** when needing to type copied contents 
+  * Leave terminal on, or close it when not needed
 ## Multiple item with the same mod names
 * Using this extension as a text replacement
   - https://chrome.google.com/webstore/detail/magical-text-expander/iibninhmiggehlcdolcilmhacighjamp
