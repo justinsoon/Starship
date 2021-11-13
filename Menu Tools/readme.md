@@ -25,6 +25,9 @@
   - Mouse 1 -> Ctrl + A -> '0'
   - change the number to what is needed
   - **warning** for this macro - you need to have really good aim for this method
+ * Going through each item in a category and saving
+  - F2 -> Enter -> CTRL + W
+  - Do edits and run macro
 ## Multiple item with the same mod names
 * Using this extension as a text replacement
   - https://chrome.google.com/webstore/detail/magical-text-expander/iibninhmiggehlcdolcilmhacighjamp
