@@ -4,7 +4,7 @@
 ### Keybinds
 | Shortcuts | Actions | 
 | --------------- | --------------- |
-| F2 | save changes on mod page / item page | 
+| F2 | save changes on mod page / item page / modifier template / click import | 
 | TAB | item setting page -> mod setting page / mod setting page -> item setting page |
 | LEFT ALT + Q | merchant page -> go to items tab | 
 | LEFT ALT + W | merchant page -> go to items categories tab | 
