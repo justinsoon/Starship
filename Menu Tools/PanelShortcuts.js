@@ -21,7 +21,9 @@ var ctrlDown = false,
     aKey = 65,
     sKey = 83,
     zKey = 90,
+    xKey = 88,
     tabKey = 9,
+    f4Key = 115,
     f2Key = 113;
 function onKeydown(evt) {
     if (evt.altKey && evt.keyCode == qKey) {
@@ -53,6 +55,9 @@ function onKeydown(evt) {
     }
     if (evt.keyCode == f2Key) {
         save();
+    }
+    if (evt.keyCode == f4Key) {
+        uploadImage();
     }
 }
 function itemPage() {
@@ -99,14 +104,25 @@ function itemSelCat() {
         button.click();
     }
 }
+function uploadImage() {
+        var button = document.evaluate("//*[@id='image']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+        button.click();
+    }
 function save() {
     if (/\bmodifiers\b/.test (location.pathname) ) {
         var button = document.evaluate("//*[@id='modifiers']/div/div[2]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
         button.click();
         alert("Saved!");
-    } else {
+    } else if (/\bupload\b/.test (location.pathname) ) {
+        var button4 = document.evaluate("//*[@id='preview']/div/div/div[2]/div[2]/form/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+        button4.click();
+    } else if (/\bitems\b/.test (location.pathname) ) {
         var button2 = document.evaluate("/html/body/div[1]/main/div/form/div/div[1]/div/div/div[19]/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-        button2.click();
+        button2.click(); 
+        alert("Saved!");
+    } else if (/\bmodifier_templates\b/.test (location.pathname) ) {
+        var button3 = document.evaluate("//*[@id='modifiers']/div/div[2]/div/div/button", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+        button3.click();
         alert("Saved!");
     }
 }
